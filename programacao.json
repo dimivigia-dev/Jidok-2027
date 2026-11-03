@@ -1,0 +1,1165 @@
+{
+  "version": "3.0",
+  "updated": "2026-11-03",
+  "name": "JIDOK 2027 — Operação Legado",
+  "officialTheme": "A definir pela liderança",
+  "tagline": "Uma temporada. Três equipes. Uma história para contar.",
+  "status": "Planejamento proposto. Datas, temas e locais precisam de aprovação.",
+  "teams": [
+    {
+      "id": "azul",
+      "name": "Equipe Azul",
+      "color": "#3b82f6"
+    },
+    {
+      "id": "vermelha",
+      "name": "Equipe Vermelha",
+      "color": "#ea526f"
+    },
+    {
+      "id": "verde",
+      "name": "Equipe Verde",
+      "color": "#16a48c"
+    }
+  ],
+  "fridaySchedule": [
+    {
+      "time": "19h00",
+      "title": "Discipulado",
+      "description": "Momento protegido; não há jogos nem pontos."
+    },
+    {
+      "time": "20h00",
+      "title": "Abertura cinematográfica",
+      "description": "Vídeo de introdução, entrada da equipe e ambientação de cada semana."
+    },
+    {
+      "time": "20h10",
+      "title": "Desafio 1",
+      "description": "Primeira missão coletiva, cerca de 12–15 minutos."
+    },
+    {
+      "time": "20h25",
+      "title": "Louvor",
+      "description": "Momento de adoração sem caráter competitivo."
+    },
+    {
+      "time": "20h45",
+      "title": "Desafio 2",
+      "description": "Missão criativa com rodízio."
+    },
+    {
+      "time": "21h00",
+      "title": "Desafio 3",
+      "description": "Missão final da noite, se o andamento do culto permitir."
+    },
+    {
+      "time": "21h15",
+      "title": "Mensagem",
+      "description": "Palavra alinhada ao tema oficial e ao foco da semana."
+    },
+    {
+      "time": "21h45",
+      "title": "Oração e ministração",
+      "description": "Sem pontuação."
+    },
+    {
+      "time": "21h55",
+      "title": "Resultado e próximos desafios",
+      "description": "Publicar resultado conferido; término estimado às 22h."
+    }
+  ],
+  "saturdaySchedule": [
+    {
+      "time": "14h30",
+      "title": "Recepção e explicação",
+      "description": "Conferir materiais, times e segurança."
+    },
+    {
+      "time": "14h50",
+      "title": "Jogo 1",
+      "description": "Uma prova principal de 30–45 minutos."
+    },
+    {
+      "time": "15h40",
+      "title": "Jogo 2",
+      "description": "Rodízio e troca de representantes."
+    },
+    {
+      "time": "16h20",
+      "title": "Pausa para água",
+      "description": "Descanso, hidratação e preparação."
+    },
+    {
+      "time": "16h35",
+      "title": "Jogo 3",
+      "description": "Desafio decisivo da tarde."
+    },
+    {
+      "time": "17h20",
+      "title": "Auditoria e anúncios",
+      "description": "Líderes conferem resultados e saem com a próxima missão."
+    }
+  ],
+  "sundayDescription": "Todos os domingos entre 10/01 e 28/02 há contagem de convidados trazidos por cada equipe no culto da igreja. O horário do culto dominical será confirmado pela liderança. O domingo 07/03 está reservado ao acampamento, sem nova disputa.",
+  "sundayDates": [
+    "2027-01-10",
+    "2027-01-17",
+    "2027-01-24",
+    "2027-01-31",
+    "2027-02-07",
+    "2027-02-14",
+    "2027-02-21",
+    "2027-02-28"
+  ],
+  "weeks": [
+    {
+      "id": 1,
+      "friday": "2027-01-08",
+      "saturday": "2027-01-09",
+      "sunday": "2027-01-10",
+      "chapter": "A Convocação",
+      "subtitle": "O dia em que nascem as três equipes",
+      "place": "Igreja",
+      "costume": "Cores dos times, bandeiras e acessórios artesanais",
+      "cult": "Abertura de temporada: contagem regressiva, entrada das equipes, apresentação dos líderes e bandeiras, pacto de respeito e mensagem sobre pertencimento.",
+      "experience": "Corredor de entrada com as três cores, trilha sonora de cada equipe e um baú lacrado que só será aberto no acampamento.",
+      "message": "Pertencimento, propósito e unidade — referência sugerida: 1 Timóteo 4:12.",
+      "saturdayTheme": "Arena das Bandeiras",
+      "saturdayConcept": "Três bases montadas no espaço da igreja; cores no chão e árbitros em cada estação.",
+      "fridayGames": [
+        {
+          "title": "Entrada Épica: bandeira e grito de guerra",
+          "duration": "15 min",
+          "players": "Todo o time",
+          "materials": "Bandeiras, som e cronômetro",
+          "steps": "Cada equipe tem até 5 minutos para entrar, apresentar sua bandeira, identidade e grito de guerra. O júri usa critérios revelados previamente.",
+          "win": "Criatividade 15, organização 15 e participação 10; máximo de 40.",
+          "safety": "Sem fumaça, fogo, empurrões ou gastos obrigatórios."
+        },
+        {
+          "title": "O Cofre das Três Cores",
+          "duration": "12 min",
+          "players": "6 por equipe",
+          "materials": "Envelopes, cadeados cenográficos ou caixas, pistas",
+          "steps": "Três pistas escondidas em zonas autorizadas levam à senha de um cofre simbólico. Toda a equipe pode orientar seus representantes da área reservada.",
+          "win": "Classificação por acertos; menor tempo desempata.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "A Última Peça",
+          "duration": "10 min",
+          "players": "8 por equipe",
+          "materials": "Quebra-cabeça grande dividido em envelopes",
+          "steps": "Os representantes revezam para coletar peças. Ao montar a frase final, devem explicá-la em 20 segundos.",
+          "win": "Frase correta primeiro; fiscais validam a montagem.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Domínio das Bandeiras",
+          "duration": "35 min",
+          "players": "8 por time em cada rodada",
+          "materials": "Três bandeiras, cones, fitas de delimitação",
+          "steps": "Em campo dividido, duas equipes enfrentam-se por 7 minutos; capturam a bandeira e a levam à própria base. A terceira equipe aguarda e entra no rodízio.",
+          "win": "Número de capturas, depois tempo; rodízio completo.",
+          "safety": "Sem segurar roupas, bloquear com o corpo ou empurrar."
+        },
+        {
+          "title": "O Chão é Lava: edição equipes",
+          "duration": "30 min",
+          "players": "7 por time",
+          "materials": "Placas EVA/papelão rígido, cones",
+          "steps": "Toda a equipe cruza uma pista sem pisar fora das placas. As placas não podem ser arremessadas e precisam ser recuperadas ao avançar.",
+          "win": "Todos atravessarem no menor tempo, com penalidade por toques no chão.",
+          "safety": "Usar piso seco e sem obstáculos elevados."
+        },
+        {
+          "title": "Guerra das Torres",
+          "duration": "35 min",
+          "players": "6 por time",
+          "materials": "Copos recicláveis, elástico, cordas, fita",
+          "steps": "Com um elástico controlado por cordas, participantes montam uma torre seguindo um padrão surpresa, sem tocar nos copos.",
+          "win": "Torre estável, depois tempo; três tentativas por time.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "A abertura precisa ter tempo maior para a apresentação de bandeiras. Se necessário, encurtar o terceiro jogo."
+    },
+    {
+      "id": 2,
+      "friday": "2027-01-15",
+      "saturday": "2027-01-16",
+      "sunday": "2027-01-17",
+      "chapter": "A Virada",
+      "subtitle": "A equipe inteira entra no jogo",
+      "place": "Igreja",
+      "costume": "Acessórios retrô, cores e adereços de papelão",
+      "cult": "Culto com perguntas reais da adolescência enviadas anonimamente, louvor e mensagem sobre escolhas e coragem.",
+      "experience": "Telão dividido em três territórios; a torcida escolhe estrategicamente quais representantes entram em cada prova.",
+      "message": "Coragem para viver a fé — referência sugerida: Josué 1:9.",
+      "saturdayTheme": "JIDOK Neon",
+      "saturdayConcept": "Arena indoor com fitas coloridas, cones, playlist energética e rodadas curtas; não exige iluminação especial.",
+      "fridayGames": [
+        {
+          "title": "Controle Remoto Humano",
+          "duration": "12 min",
+          "players": "5 por time",
+          "materials": "Cartões de comandos, cones",
+          "steps": "Um representante é o 'personagem'; a equipe recebe comandos e precisa orientá-lo a completar um trajeto de casas no chão. O juiz revela um comando novo a cada rodada.",
+          "win": "Mais etapas corretas em 8 minutos.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Dança de Comandos",
+          "duration": "12 min",
+          "players": "8 por time",
+          "materials": "Som, cartões de movimentos",
+          "steps": "O líder sorteia oito movimentos. Cada equipe aprende a sequência e apresenta; no meio, um comando é trocado sem aviso.",
+          "win": "Sincronia, adaptação e participação; júri com critérios anunciados.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Missão Troca-Troca",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Cartões de tarefas, cronômetro",
+          "steps": "Três estações de habilidade, memória e pontaria. Depois de cada estação, o líder precisa escolher um integrante diferente para continuar.",
+          "win": "Mais estações corretas; tempo desempata.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Queimada: Vidas Extras",
+          "duration": "40 min",
+          "players": "7 por time em cada partida",
+          "materials": "Bolas de espuma, cones",
+          "steps": "Cada equipe recebe três fichas de retorno. Quem for queimado abaixo dos ombros sai, mas pode retornar mediante uma ficha escolhida pelo capitão. Partidas em rodízio.",
+          "win": "Mais jogadores ativos no tempo final.",
+          "safety": "Somente bolas macias, não mirar no rosto."
+        },
+        {
+          "title": "Rouba-Cone 360",
+          "duration": "30 min",
+          "players": "8 por time",
+          "materials": "Cones de três cores, demarcações",
+          "steps": "Cada base começa com 8 cones. Em rodadas cronometradas, participantes buscam um cone por viagem nas bases rivais; tocar um corredor na área de defesa o obriga a retornar sem cone.",
+          "win": "Maior quantidade de cones na base.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Corrida do Caos",
+          "duration": "35 min",
+          "players": "8 por time",
+          "materials": "Copos, bolas de plástico, argolas, fita",
+          "steps": "Circuito de 5 fases com uma alteração surpresa de regra no meio. Revezamento com novos representantes a cada fase.",
+          "win": "Todas as fases concluídas, depois tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "Evitar coreografias que exponham quem não quer dançar; oferecer funções de direção e criação."
+    },
+    {
+      "id": 3,
+      "friday": "2027-01-22",
+      "saturday": "2027-01-23",
+      "sunday": "2027-01-24",
+      "chapter": "O Enredo",
+      "subtitle": "Uma história pode mudar tudo",
+      "place": "Sintético (reserva a confirmar)",
+      "costume": "Figurinos acessíveis inspirados em personagens",
+      "cult": "Noite GAD: apresentação oficial de teatro sobre o tema do JIDOK, quando anunciado, seguida de mensagem com aplicação prática.",
+      "experience": "Antes do culto, bilhetes com escolhas são distribuídos; a peça termina com uma decisão do público sem transformar a fé em votação.",
+      "message": "Escolhas e consequências — texto bíblico a definir junto ao tema oficial.",
+      "saturdayTheme": "Copa dos Territórios",
+      "saturdayConcept": "Tarde no sintético, com jogos de agilidade e estratégia; alugar apenas se o orçamento permitir.",
+      "fridayGames": [
+        {
+          "title": "Dublagem Fora de Controle",
+          "duration": "12 min",
+          "players": "4 por time",
+          "materials": "Microfones ou som ambiente, cartões de cena",
+          "steps": "Dois participantes encenam sem falar e dois fazem as vozes, sem ensaio conjunto. O público recebe o contexto do sorteio.",
+          "win": "Criatividade, coerência e colaboração, 40 pontos possíveis.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Cena Rebobina",
+          "duration": "12 min",
+          "players": "5 por time",
+          "materials": "Cartões de situações, cronômetro",
+          "steps": "Cada time apresenta uma cena de 45 segundos e depois precisa reproduzi-la de trás para frente mantendo os mesmos objetos e ações.",
+          "win": "Coerência e inventividade, avaliadas por júri neutro.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Plot Twist Bíblico",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Envelopes com situações e reviravoltas",
+          "steps": "As equipes têm 90 segundos de preparação; aos 40 segundos da cena, recebem um novo elemento obrigatório.",
+          "win": "História compreensível, criatividade e participação.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Futebol de Missões 5×5",
+          "duration": "45 min",
+          "players": "5 por time e reservas",
+          "materials": "Bola, coletes, gols",
+          "steps": "Partidas em rodízio. A cada 3 minutos o juiz anuncia uma missão: todos tocam na bola antes do gol, gol de primeira vale dobro ou novo capitão assume.",
+          "win": "Tabela 3/1/0 e saldo de gols como desempate.",
+          "safety": "Sem carrinhos, choques ou contato excessivo."
+        },
+        {
+          "title": "Bandeirinha Estourou",
+          "duration": "35 min",
+          "players": "8 por equipe",
+          "materials": "Bandeiras e três alvos removíveis por base",
+          "steps": "Capture a bandeira adversária e, ao retornar à própria base, retire um alvo da base rival. O primeiro a retirar três alvos vence a rodada.",
+          "win": "Vitórias e capturas no rodízio.",
+          "safety": "Preferir alvos de papel/velcro aos balões se houver sensibilidade a ruídos."
+        },
+        {
+          "title": "Desafio Pênalti 27",
+          "duration": "30 min",
+          "players": "6 batedores diferentes por time",
+          "materials": "Bola, gol e alvos de fita",
+          "steps": "Cada participante escolhe um alvo de pontuação no gol. A equipe decide a ordem dos chutes antes de conhecer a rodada bônus.",
+          "win": "Soma dos alvos acertados; ninguém bate duas vezes antes de todos.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "Primeira noite de apresentação especial do GAD; a peça pontua em separado das três provas de sexta."
+    },
+    {
+      "id": 4,
+      "friday": "2027-01-29",
+      "saturday": "2027-01-30",
+      "sunday": "2027-01-31",
+      "chapter": "O Movimento",
+      "subtitle": "Uma geração em movimento",
+      "place": "Igreja",
+      "costume": "Visual criativo com fitas e cores das equipes",
+      "cult": "Noite SOS: cada time apresenta uma intervenção de dança e expressão corporal conectada ao tema oficial.",
+      "experience": "Intervenção surpresa de dança antes da mensagem, seguida por breve testemunho do significado dos movimentos.",
+      "message": "Adoração e transformação — referência sugerida: Romanos 12:2.",
+      "saturdayTheme": "JIDOK Arcade Royale",
+      "saturdayConcept": "Estações de PlayStation, futmesa e um grande game show com rodízio; priorizar equipamentos emprestados.",
+      "fridayGames": [
+        {
+          "title": "Sombra Perfeita",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Lanterna difusa, lençol opcional, cartões",
+          "steps": "Uma equipe cria três imagens corporais de histórias bíblicas; a outra identifica. Pode ser feito sem tela usando poses estáticas.",
+          "win": "Acertos e originalidade.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Coreografia Mutante",
+          "duration": "13 min",
+          "players": "8 por time",
+          "materials": "Caixa de som, 3 cartões de movimentos",
+          "steps": "Cada equipe recebe um ritmo e três gestos obrigatórios, monta 45 segundos de sequência e adapta quando o juiz anuncia uma mudança.",
+          "win": "Participação, coerência e adaptação.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "O Clipe Improvável",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Celular de filmagem da organização, objetos de cena",
+          "steps": "Os participantes montam um videoclipe de 45 segundos em plano-sequência, contando uma mensagem com começo, meio e fim.",
+          "win": "Clareza, inventividade e cooperação.",
+          "safety": "Nenhuma publicação sem autorização de imagem."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Copa PlayStation",
+          "duration": "45 min",
+          "players": "2 representantes por time, em rodízio",
+          "materials": "Console e TV emprestados, controles",
+          "steps": "Jogos curtos todos-contra-todos em EA FC ou jogo apropriado. Tempo de jogo igual para todas as equipes; rodadas e ajustes de empate divulgados.",
+          "win": "Pontos por partida e saldo de gols.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Futmesa Champions",
+          "duration": "40 min",
+          "players": "2 duplas diferentes por equipe",
+          "materials": "Mesa própria/emprestada, bola adequada",
+          "steps": "Duplas se enfrentam em sets de 7 pontos. Até três toques por lado, sem braços ou mãos.",
+          "win": "Mais sets vencidos; saldo de pontos desempata.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Passa ou Repensa: Arena Gigante",
+          "duration": "35 min",
+          "players": "Todo o time por turnos",
+          "materials": "Placas A/B/C, projetor, envelopes",
+          "steps": "Rodadas de estratégia, cultura bíblica, memória e desafios de objetos. Não há 'torta na cara': errou, o outro time recebe chance.",
+          "win": "Maior soma de respostas certas.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "Os representantes dos videogames e futmesa devem rodar para não concentrar os pontos nos mais habilidosos."
+    },
+    {
+      "id": 5,
+      "friday": "2027-02-05",
+      "saturday": "2027-02-06",
+      "sunday": "2027-02-07",
+      "chapter": "Sinal 27",
+      "subtitle": "A missão ficou mais difícil",
+      "place": "Igreja",
+      "costume": "Agentes secretos, óculos e crachás feitos à mão",
+      "cult": "Noite de estreia IMS: exibição dos três vídeos produzidos sobre o tema oficial do JIDOK, com jurados neutros e duração definida.",
+      "experience": "Convite em vídeo estilo trailer; pulseira ou crachá de agente para cada participante; QR code opcional com pistas extras.",
+      "message": "Comunicando com propósito — referência sugerida: Mateus 5:16.",
+      "saturdayTheme": "Escape: Cidade Secreta",
+      "saturdayConcept": "Grande caça a pistas no próprio espaço da igreja, com salas e zonas claramente demarcadas.",
+      "fridayGames": [
+        {
+          "title": "Hackeie a Mensagem",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Cartões com cifras e trechos de texto",
+          "steps": "Cada equipe recebe uma cifra diferente de dificuldade equivalente; deve reconstruir a frase sem consultar celular.",
+          "win": "Mensagem exata e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Agentes em Silêncio",
+          "duration": "12 min",
+          "players": "7 por time",
+          "materials": "Cartões de símbolos, fita de chão",
+          "steps": "Um agente visualiza o código e orienta colegas apenas por gestos para posicionarem cartões num painel.",
+          "win": "Sequência correta; tempo desempata.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Túnel de Dados",
+          "duration": "12 min",
+          "players": "8 por time",
+          "materials": "Copos e cartões de pistas",
+          "steps": "Os integrantes formam uma cadeia e transportam peças sem usar as mãos; cada peça completa um código final.",
+          "win": "Mais peças entregues corretamente.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Caça ao Tesouro 360",
+          "duration": "45 min",
+          "players": "6–10 por time",
+          "materials": "12 envelopes, mapa do espaço, fichas",
+          "steps": "Pistas em ordem não linear levam a cinco selos. Cada equipe inicia em ponto diferente para evitar aglomeração.",
+          "win": "Selos corretos e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Labirinto Laser",
+          "duration": "35 min",
+          "players": "6 por time",
+          "materials": "Barbantes e fita de baixa tensão",
+          "steps": "Os representantes passam por uma rede de fios entre cadeiras sem tocar os fios; uma segunda etapa exige retirar uma pista.",
+          "win": "Menor número de toques e tempo.",
+          "safety": "Não usar luz laser verdadeira; corredor livre e sem risco de tropeço."
+        },
+        {
+          "title": "O Código dos 8 Portais",
+          "duration": "35 min",
+          "players": "8 por time",
+          "materials": "Cartões de quebra-cabeça e oito estações",
+          "steps": "Cada estação resolve um enigma diferente; as respostas formam a senha final da caixa cenográfica.",
+          "win": "Mais portais resolvidos, depois tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "Perto do Carnaval: todas as atividades podem ser feitas na igreja e a pontuação por presença deve considerar ausências justificadas."
+    },
+    {
+      "id": 6,
+      "friday": "2027-02-12",
+      "saturday": "2027-02-13",
+      "sunday": "2027-02-14",
+      "chapter": "A Frequência",
+      "subtitle": "A geração encontra sua voz",
+      "place": "Igreja",
+      "costume": "Estilo festival musical nas cores das equipes",
+      "cult": "Noite New Breed/Louvor: apresentação de proposta musical criativa de cada equipe conectada ao tema oficial; momento de adoração sem caráter competitivo.",
+      "experience": "A abertura usa uma frequência sonora que se transforma em palavra no telão; cada equipe entrega uma composição inédita de 60–90 segundos.",
+      "message": "Louvor, identidade e serviço — referência sugerida: Salmos 150.",
+      "saturdayTheme": "JIDOK Gameshow",
+      "saturdayConcept": "Uma tarde com jogos em formato de programa de auditório, com provas de torcida e quebra-cabeças gigantes.",
+      "fridayGames": [
+        {
+          "title": "Maestro Invisível",
+          "duration": "12 min",
+          "players": "8 por time",
+          "materials": "Palmas e cartões de ritmo",
+          "steps": "Um participante vê a sequência de palmas e precisa ensinar aos colegas sem vocalizar números; mudanças ocorrem a cada rodada.",
+          "win": "Mais sequências corretas.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Banda de Última Hora",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Instrumentos simples/objetos de percussão",
+          "steps": "Cada equipe recebe 4 palavras sobre o tema provisório e cria uma vinheta autoral de até 40 segundos.",
+          "win": "Criatividade, participação, clareza e ritmo.",
+          "safety": "Sem avaliar a 'qualidade espiritual' ou talentos profissionais."
+        },
+        {
+          "title": "Hit Secreto",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Instrumentos e áudios próprios ou autorizados",
+          "steps": "Rodadas para reconhecer melodias curtas e completar frases bíblicas associadas a elas, com rodízio obrigatório.",
+          "win": "Mais respostas corretas.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Torre Humana de Copos",
+          "duration": "35 min",
+          "players": "8 por time",
+          "materials": "Copos plásticos, elástico e cordas",
+          "steps": "Com apenas cordas, o grupo monta três estruturas cujos modelos são revelados progressivamente.",
+          "win": "Mais estruturas perfeitas e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Guerra dos Botões",
+          "duration": "35 min",
+          "players": "6 por time",
+          "materials": "Campainhas ou placas A/B/C",
+          "steps": "Jogo de perguntas em rodadas com seleção estratégica de capitães e bônus de dificuldade.",
+          "win": "Total de respostas corretas.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Mega Dominó Vivo",
+          "duration": "40 min",
+          "players": "9 por time",
+          "materials": "Peças EVA/cartolina e desafios",
+          "steps": "Cada equipe precisa conectar 24 peças gigantes por associação de símbolos, pistas e versículos.",
+          "win": "Cadeia completa, tempo desempata.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "A apresentação do Louvor tem pontuação por composição coletiva; o culto de adoração não é julgado."
+    },
+    {
+      "id": 7,
+      "friday": "2027-02-19",
+      "saturday": "2027-02-20",
+      "sunday": "2027-02-21",
+      "chapter": "A Cidade nos Chama",
+      "subtitle": "Fazer diferença além das paredes",
+      "place": "Igreja e entorno autorizado",
+      "costume": "Cores do time com símbolo de serviço",
+      "cult": "Culto com relatos voluntários de serviço e uma mensagem sobre amor ao próximo; apresentação da missão especial Vivacidade.",
+      "experience": "Montar uma parede de boas ações anônimas e cartas positivas, sem expor pessoas atendidas.",
+      "message": "Fé em ação — referência sugerida: Tiago 2:17.",
+      "saturdayTheme": "Survivor do Bem",
+      "saturdayConcept": "Desafios de construção e colaboração, com uma ação prática de serviço comunitário supervisionado em horário combinado.",
+      "fridayGames": [
+        {
+          "title": "Cidade em Colapso",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Mapa fictício e cartas de recursos",
+          "steps": "Cada equipe recebe situações de crise comunitária e 10 fichas de recurso. Precisa priorizar três soluções sob pressão do relógio.",
+          "win": "Critérios objetivos: cobertura, justificativa e cooperação.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Correio Impossível",
+          "duration": "12 min",
+          "players": "8 por time",
+          "materials": "Envelopes, cones e mapas",
+          "steps": "Revezamento para entregar oito mensagens em endereços de um mapa; parte do percurso só libera quando uma pista é resolvida.",
+          "win": "Entregas corretas e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Mapa Vivo 27",
+          "duration": "12 min",
+          "players": "7 por time",
+          "materials": "Fita no chão, cartões de locais",
+          "steps": "O chão vira um mapa; os participantes posicionam lugares e caminhos com base em dicas que chegam em sequência.",
+          "win": "Mais locais corretos e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Desafio da Ponte",
+          "duration": "35 min",
+          "players": "8 por time",
+          "materials": "Papelão, barbante, fita e um objeto de teste",
+          "steps": "Cada grupo constrói uma ponte para sustentar um objeto-padrão durante 10 segundos, com materiais e tempo iguais.",
+          "win": "Sustenta o objeto, depois economia de material.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Missão Entrega Perfeita",
+          "duration": "35 min",
+          "players": "8 por time",
+          "materials": "Caixas vazias, carrinhos ou bandejas",
+          "steps": "Entregar kits simbólicos por percurso com revezamento, interpretação de mapa e validação de itens, sem objetos pesados.",
+          "win": "Itens e endereços corretos.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Batalha dos Construtores",
+          "duration": "40 min",
+          "players": "8 por time",
+          "materials": "Papelão e materiais reutilizáveis",
+          "steps": "Montar um abrigo simbólico em miniatura com requisitos surpresa de estabilidade e acessibilidade.",
+          "win": "Critérios iguais: estabilidade, acessibilidade, criatividade.",
+          "safety": "Não usar ferramentas cortantes sem adulto."
+        }
+      ],
+      "weeklyNote": "Vivacidade: ações reais apenas com autorização, supervisão e sem competição por quantidade de doações."
+    },
+    {
+      "id": 8,
+      "friday": "2027-02-26",
+      "saturday": "2027-02-27",
+      "sunday": "2027-02-28",
+      "chapter": "A Última Chave",
+      "subtitle": "Tudo aponta para o acampamento",
+      "place": "Igreja ou sintético, conforme orçamento",
+      "costume": "Uniforme oficial e acessórios da equipe",
+      "cult": "Culto de preparação espiritual e apresentação do projeto GOE; a programação revela a última pista do acampamento.",
+      "experience": "Telão com o mapa da temporada mostrando as chaves já conquistadas; final com envelope lacrado para os capitães.",
+      "message": "Perseverança, cuidado e propósito — referência sugerida: Hebreus 12:1.",
+      "saturdayTheme": "Pré-Final dos Gigantes",
+      "saturdayConcept": "Último sábado da temporada regular, com três disputas marcantes e classificação revisada.",
+      "fridayGames": [
+        {
+          "title": "Boss Fight da Palavra",
+          "duration": "12 min",
+          "players": "6 por time",
+          "materials": "Projetor, placas de respostas",
+          "steps": "Quiz com três fases: imagens, referências e enigmas bíblicos. Cada fase exige representantes novos.",
+          "win": "Total de respostas corretas, depois fase mais difícil.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Resgate 27: Operação GOE",
+          "duration": "12 min",
+          "players": "8 por time",
+          "materials": "Envelopes, boneco simbólico, cones",
+          "steps": "Cada equipe encontra três pistas de acolhimento, monta o caminho de resgate e entrega um cartão de boas-vindas sem expor pessoas reais.",
+          "win": "Pistas corretas, colaboração e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        },
+        {
+          "title": "Portal do Acampamento",
+          "duration": "12 min",
+          "players": "Todo o time",
+          "materials": "Oito símbolos das semanas, quebra-cabeça",
+          "steps": "Reunir as referências das oito semanas em um painel e descobrir um código que será utilizado no último sábado.",
+          "win": "Mais conexões corretas e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "saturdayGames": [
+        {
+          "title": "Queimada: Final de Temporada",
+          "duration": "40 min",
+          "players": "7 por time e reservas",
+          "materials": "Bolas leves, cones",
+          "steps": "Chave em rodízio com três partidas; cada time possui duas fichas de retorno por rodada.",
+          "win": "Vitórias e jogadores ativos.",
+          "safety": "Bolas leves e sem arremessos na cabeça."
+        },
+        {
+          "title": "Bandeirinha dos Três Reis",
+          "duration": "40 min",
+          "players": "8 por time",
+          "materials": "Três bases e bandeiras",
+          "steps": "Três equipes em campo simultâneo com áreas de captura e devolução. Uma captura libera um selo simbólico.",
+          "win": "Mais selos capturados; árbitros monitoram cada base.",
+          "safety": "Não correr em corredores estreitos."
+        },
+        {
+          "title": "Circuito dos Capitães",
+          "duration": "35 min",
+          "players": "10 por time, ninguém repetido na mesma fase",
+          "materials": "Cones, argolas, cartas e peças",
+          "steps": "Cinco etapas de habilidade, cooperação e lógica. Cada capitão escolhe uma sequência diferente de representantes.",
+          "win": "Etapas concluídas e tempo.",
+          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        }
+      ],
+      "weeklyNote": "Divulgar o placar da temporada antes do acampamento, sem anunciar campeão antecipadamente."
+    }
+  ],
+  "ministries": [
+    {
+      "id": "flare",
+      "name": "Flare Up",
+      "type": "semanal",
+      "start": "08/01",
+      "end": "26/02",
+      "score": 100,
+      "idea": "Células nas escolas",
+      "rules": "Cada célula realizada na escola e validada pela liderança soma 20 pontos, até 5 por semana (máximo 100). É preciso autorização da escola e responsável adulto; a atividade não pode interromper aulas nem constranger colegas. Enviar data, local autorizado e confirmação do líder, sem dados dos alunos.",
+      "deliver": "Registro semanal com data e validação do responsável",
+      "criteria": "20 por célula confirmada; máximo de 100 por equipe/semana"
+    },
+    {
+      "id": "intercessao",
+      "name": "Intercessão",
+      "type": "semanal",
+      "start": "08/01",
+      "end": "26/02",
+      "score": 50,
+      "idea": "Presença na sala de oração de sexta às 05h",
+      "rules": "Conta-se o número de integrantes de cada time presentes na sala de oração, mediante registro simples do responsável, com pontuação por colocação 50/35/20. Participação é voluntária; a liderança deve avaliar transporte, sono, idade e possibilidades de participação segura. Não comparar intensidade da fé.",
+      "deliver": "Contagem validada do responsável pela sala de oração",
+      "criteria": "1º 50 / 2º 35 / 3º 20; empates recebem a mesma colocação"
+    },
+    {
+      "id": "gad",
+      "name": "GAD — Teatro",
+      "type": "especial",
+      "date": "22/01",
+      "week": 3,
+      "score": 150,
+      "idea": "Apresentação teatral sobre o tema oficial",
+      "rules": "Cada equipe prepara uma peça de 5 a 7 minutos, com começo, conflito e solução. Tema: o tema oficial do JIDOK, quando divulgado. O júri avalia coerência, criatividade, participação, organização e clareza. Todos recebem mesma duração e equipamento básico.",
+      "deliver": "Sinopse e lista de necessidades técnicas até a quarta anterior; apresentação em 22/01",
+      "criteria": "Rubrica comum de 150 pontos"
+    },
+    {
+      "id": "sos",
+      "name": "SOS — Dança",
+      "type": "especial",
+      "date": "29/01",
+      "week": 4,
+      "score": 150,
+      "idea": "Apresentação de dança sobre o tema oficial",
+      "rules": "Montar coreografia autoral de 3 a 5 minutos, explicando visualmente o tema. Valorizar expressão e envolvimento, não apenas técnica. Usar trilhas autorizadas e movimentos seguros.",
+      "deliver": "Trilha e ficha técnica até a quarta anterior; apresentação em 29/01",
+      "criteria": "Rubrica comum de 150 pontos"
+    },
+    {
+      "id": "ims",
+      "name": "IMS — Mídias",
+      "type": "especial",
+      "date": "05/02",
+      "week": 5,
+      "score": 150,
+      "idea": "Vídeo sobre o tema oficial do JIDOK",
+      "rules": "Produzir vídeo de 2 a 3 minutos, gravado no celular, com narrativa própria e mensagem alinhada ao tema oficial que ainda será anunciado. Cada equipe recebe o mesmo briefing e prazo de produção; evitar rostos de menores sem autorização.",
+      "deliver": "Arquivo MP4 até 03/02; exibição dos três vídeos no culto de 05/02",
+      "criteria": "Rubrica comum de 150 pontos"
+    },
+    {
+      "id": "louvor",
+      "name": "New Breed / Louvor",
+      "type": "especial",
+      "date": "12/02",
+      "week": 6,
+      "score": 150,
+      "idea": "Trilha ou composição original do JIDOK",
+      "rules": "Criar uma vinheta ou música autoral de 60 a 90 segundos inspirada no tema oficial, com participação do time. Pode ser acústica, coral, rap autoral ou percussão. A avaliação é sobre criação e cooperação, não desempenho espiritual.",
+      "deliver": "Letra e arquivo de áudio ou apresentação em 12/02",
+      "criteria": "Rubrica comum de 150 pontos"
+    },
+    {
+      "id": "vivacidade",
+      "name": "Vivacidade",
+      "type": "especial",
+      "date": "19/02",
+      "week": 7,
+      "score": 150,
+      "idea": "Ação de impacto na comunidade",
+      "rules": "Cada time planeja uma ação pequena de serviço viável e segura (cartas, cuidado de espaço autorizado, ajuda comunitária) com supervisão. A pontuação considera impacto do projeto e participação, nunca valor financeiro, quantidade de doações ou exposição de pessoas.",
+      "deliver": "Plano aprovado antes da ação e relato objetivo em 19/02",
+      "criteria": "Rubrica comum de 150 pontos"
+    },
+    {
+      "id": "goe",
+      "name": "GOE — Resgate",
+      "type": "especial",
+      "date": "26/02",
+      "week": 8,
+      "score": 150,
+      "idea": "Experiência de acolhimento e resgate",
+      "rules": "Planejar uma recepção exemplar a novos participantes e apresentar simulação de acompanhamento em situações cotidianas. Não identificar adolescentes afastados, nem usar histórias pessoais em competição.",
+      "deliver": "Plano de acolhimento e demonstração em 26/02",
+      "criteria": "Rubrica comum de 150 pontos"
+    }
+  ],
+  "scoring": {
+    "categories": [
+      {
+        "key": "fri1",
+        "label": "1ª missão de sexta",
+        "max": 40,
+        "method": "1º 40 / 2º 30 / 3º 20"
+      },
+      {
+        "key": "fri2",
+        "label": "2ª missão de sexta",
+        "max": 40,
+        "method": "1º 40 / 2º 30 / 3º 20"
+      },
+      {
+        "key": "fri3",
+        "label": "3ª missão de sexta",
+        "max": 40,
+        "method": "1º 40 / 2º 30 / 3º 20"
+      },
+      {
+        "key": "sat1",
+        "label": "1º jogo de sábado",
+        "max": 80,
+        "method": "1º 80 / 2º 55 / 3º 35"
+      },
+      {
+        "key": "sat2",
+        "label": "2º jogo de sábado",
+        "max": 80,
+        "method": "1º 80 / 2º 55 / 3º 35"
+      },
+      {
+        "key": "sat3",
+        "label": "3º jogo de sábado",
+        "max": 80,
+        "method": "1º 80 / 2º 55 / 3º 35"
+      },
+      {
+        "key": "sunday",
+        "label": "Convidados de domingo",
+        "max": 80,
+        "method": "1º 80 / 2º 50 / 3º 30; contagem por domingo"
+      },
+      {
+        "key": "flare",
+        "label": "Flare Up: células",
+        "max": 100,
+        "method": "20 por célula confirmada, até 5 na semana"
+      },
+      {
+        "key": "prayer",
+        "label": "Intercessão: sala de oração",
+        "max": 50,
+        "method": "1º 50 / 2º 35 / 3º 20; presença voluntária"
+      },
+      {
+        "key": "friGuests",
+        "label": "Convidados de sexta",
+        "max": 75,
+        "method": "15 por visitante, até 5"
+      },
+      {
+        "key": "costume",
+        "label": "Caracterização",
+        "max": 60,
+        "method": "1º 60 / 2º 40 / 3º 20"
+      },
+      {
+        "key": "attendance",
+        "label": "Presença proporcional do time",
+        "max": 80,
+        "method": "80 × presentes / inscritos no time"
+      },
+      {
+        "key": "fairplay",
+        "label": "Espírito esportivo",
+        "max": 30,
+        "method": "Até 30 por cooperação e respeito"
+      },
+      {
+        "key": "special",
+        "label": "Missão especial do ministério",
+        "max": 150,
+        "method": "Somente nas semanas 3–8; rubrica de cinco critérios"
+      }
+    ],
+    "weeklyBaseMax": 835,
+    "specialMax": 150,
+    "weeklySpecialMax": 985,
+    "prizeFriday": "Cada missão de sexta: 40 / 30 / 20",
+    "prizeSaturday": "Cada jogo de sábado: 80 / 55 / 35",
+    "sunday": "Convidados contados por domingo: 80 / 50 / 30",
+    "sundayRules": "Visitante conta uma vez por culto dominical e para apenas uma equipe; presença confirmada por recepção. Pode contar novamente em outro domingo. Empates recebem a pontuação da mesma colocação.",
+    "firstFriday": "Convidados nas sextas: 15 por visitante por noite, até 75 pontos por equipe na semana.",
+    "rubric": [
+      {
+        "name": "Fidelidade ao tema",
+        "max": 40
+      },
+      {
+        "name": "Criatividade",
+        "max": 30
+      },
+      {
+        "name": "Participação",
+        "max": 30
+      },
+      {
+        "name": "Clareza da mensagem",
+        "max": 30
+      },
+      {
+        "name": "Organização",
+        "max": 20
+      }
+    ],
+    "notes": [
+      "Não publicar nomes nem dados de visitantes no placar.",
+      "Desafios semanais de Flare Up e Intercessão são acompanhados em todas as oito semanas.",
+      "Missões especiais de 150 pontos acontecem apenas nas semanas 3 a 8.",
+      "Em semanas sem missão especial, o total máximo é 835; com missão, 985.",
+      "Todas as equipes podem empatar e receber a mesma colocação quando a regra permitir.",
+      "Placar editado no navegador é apenas simulação local e nunca pontuação oficial compartilhada.",
+      "Absolutamente nenhuma pontuação por conversão, intensidade da oração ou valor de doações."
+    ]
+  },
+  "camp": {
+    "dates": "05 a 07/03/2027 — datas provisórias",
+    "note": "O tema oficial e as datas do acampamento ainda serão confirmados.",
+    "friday": [
+      {
+        "time": "19h00",
+        "title": "Chegada, acolhimento e alojamento",
+        "desc": "Conferência de autorização dos responsáveis, regras do espaço, água e reconhecimento das áreas permitidas."
+      },
+      {
+        "time": "20h30",
+        "title": "Culto de abertura do acampamento",
+        "desc": "Louvor, mensagem, retrospectiva e apresentação do mapa final. Sem provas valendo pontos."
+      },
+      {
+        "time": "22h00",
+        "title": "Convivência e descanso",
+        "desc": "Atividade social leve, organização e descanso."
+      }
+    ],
+    "saturday": [
+      {
+        "time": "08h30",
+        "title": "Café e convivência",
+        "desc": "Momento livre com supervisão, sem pontuação."
+      },
+      {
+        "time": "10h00",
+        "title": "Culto / momento devocional",
+        "desc": "Preparação espiritual sem competição."
+      },
+      {
+        "time": "13h30",
+        "title": "Abertura da Arena Final",
+        "desc": "Hidratação, conferência de equipes, explicação dos árbitros."
+      },
+      {
+        "time": "14h00",
+        "title": "Jogo 1 — Guerra dos Territórios",
+        "desc": "Bandeirinha tática em rodízio; 1º 150, 2º 110, 3º 80."
+      },
+      {
+        "time": "14h50",
+        "title": "Jogo 2 — Circuito do Impossível",
+        "desc": "Cinco estações alternando velocidade, cooperação, pontaria e lógica; 150/110/80."
+      },
+      {
+        "time": "15h40",
+        "title": "Jogo 3 — Caçada das Oito Chaves",
+        "desc": "Caça ao tesouro com enigmas de todas as semanas; 150/110/80."
+      },
+      {
+        "time": "16h30",
+        "title": "Intervalo e conferência",
+        "desc": "Água, lanche leve, auditoria das três provas."
+      },
+      {
+        "time": "16h50",
+        "title": "MEGA DESAFIO — O Último Código",
+        "desc": "Final de 50 minutos com mapa, pistas, representantes distintos e baú final; 1º 350, 2º 260, 3º 180."
+      },
+      {
+        "time": "17h45",
+        "title": "Conferência e premiação",
+        "desc": "Troféu do campeão, destaque de criatividade, acolhimento e espírito esportivo. O campeão é anunciado no sábado à tarde."
+      },
+      {
+        "time": "Noite",
+        "title": "Celebração e culto de gratidão",
+        "desc": "Sem pontos; momento de unidade após o encerramento competitivo."
+      }
+    ],
+    "sunday": [
+      {
+        "time": "Manhã",
+        "title": "Culto e testemunhos",
+        "desc": "Momento espiritual de encerramento, sem pontuação."
+      },
+      {
+        "time": "Após o culto",
+        "title": "Convivência e retorno",
+        "desc": "Foto com autorização, limpeza do espaço e transporte."
+      }
+    ],
+    "finals": [
+      {
+        "title": "Guerra dos Territórios",
+        "duration": "45 min",
+        "players": "8 por time",
+        "materials": "Bandeiras, coletes, cones",
+        "steps": "Rodízio completo de captura de bandeiras; cada capitão escolhe novas estratégias no segundo tempo.",
+        "win": "1º 150 / 2º 110 / 3º 80",
+        "safety": "Sem empurrões, contato físico ou exposição de participantes."
+      },
+      {
+        "title": "Circuito do Impossível",
+        "duration": "45 min",
+        "players": "10 por time",
+        "materials": "Cones, argolas, EVA e cartas",
+        "steps": "Cinco estações: travessia, precisão, comunicação, quebra-cabeça e torre. Rodízio obrigatório dos participantes.",
+        "win": "1º 150 / 2º 110 / 3º 80",
+        "safety": "Sem empurrões, contato físico ou exposição de participantes."
+      },
+      {
+        "title": "Caçada das Oito Chaves",
+        "duration": "45 min",
+        "players": "Todo o time, subgrupos de 4",
+        "materials": "Oito envelopes, mapa, caixa",
+        "steps": "Percurso em área autorizada com oito enigmas ligados aos ministérios. Cada chave traz uma pista para o desafio final.",
+        "win": "1º 150 / 2º 110 / 3º 80",
+        "safety": "Sem empurrões, contato físico ou exposição de participantes."
+      },
+      {
+        "title": "MEGA DESAFIO — O Último Código",
+        "duration": "50 min",
+        "players": "Todo o time, com fases de revezamento",
+        "materials": "Baú cenográfico, 3 mapas, 8 chaves, cartazes",
+        "steps": "Fase 1: decifrar mapa. Fase 2: atravessar estações de habilidade. Fase 3: completar um puzzle gigante. Fase 4: cada time tenta abrir o cofre com a senha final. Última etapa exige que as três equipes unam peças para revelar uma mensagem coletiva.",
+        "win": "1º 350 / 2º 260 / 3º 180; cooperação final rende 100 iguais para todas.",
+        "safety": "Sem deslocamento noturno, portas trancadas ou obstáculos perigosos."
+      }
+    ],
+    "coopPoints": 100,
+    "awards": [
+      "Campeão geral",
+      "Equipe mais criativa",
+      "Destaque de espírito esportivo",
+      "Destaque de acolhimento",
+      "Reconhecimento coletivo das oito estruturas"
+    ]
+  },
+  "budget": [
+    {
+      "name": "Identidade visual, fitas e bandeiras",
+      "low": 180,
+      "high": 320
+    },
+    {
+      "name": "Materiais reutilizáveis de prova",
+      "low": 250,
+      "high": 430
+    },
+    {
+      "name": "Impressão, envelopes e pistas",
+      "low": 70,
+      "high": 140
+    },
+    {
+      "name": "Troféus, medalhas e lembranças",
+      "low": 220,
+      "high": 380
+    },
+    {
+      "name": "Água e lanches",
+      "low": 320,
+      "high": 700
+    },
+    {
+      "name": "Sintético (1 ou 2 locações)",
+      "low": 200,
+      "high": 600
+    },
+    {
+      "name": "Reserva de imprevistos",
+      "low": 150,
+      "high": 300
+    }
+  ],
+  "checklist": [
+    {
+      "label": "Aprovar tema oficial e datas do acampamento",
+      "group": "Antes da temporada"
+    },
+    {
+      "label": "Confirmar líderes, times, cores e regulamento",
+      "group": "Antes da temporada"
+    },
+    {
+      "label": "Obter autorização para imagem de menores",
+      "group": "Antes da temporada"
+    },
+    {
+      "label": "Reservar espaço e verificar plano para chuva",
+      "group": "Antes da temporada"
+    },
+    {
+      "label": "Confirmar horários de sexta e domingo",
+      "group": "Antes da temporada"
+    },
+    {
+      "label": "Preparar materiais e pistas da semana",
+      "group": "Toda semana"
+    },
+    {
+      "label": "Definir árbitros neutros, regras e desempate",
+      "group": "Toda semana"
+    },
+    {
+      "label": "Conferir presenças e convidados de sexta e domingo",
+      "group": "Toda semana"
+    },
+    {
+      "label": "Validar células e contagem da sala de oração",
+      "group": "Toda semana"
+    },
+    {
+      "label": "Disponibilizar água, primeiros socorros e adultos",
+      "group": "Toda semana"
+    },
+    {
+      "label": "Publicar placar depois de conferência dos líderes",
+      "group": "Toda semana"
+    },
+    {
+      "label": "Conferir as quatro provas da tarde final",
+      "group": "Acampamento"
+    },
+    {
+      "label": "Confirmar troféus e premiação no sábado à tarde",
+      "group": "Acampamento"
+    }
+  ],
+  "safety": [
+    "Adultos responsáveis em todos os ambientes, inclusive áreas externas.",
+    "Atividades escolares apenas com aprovação da instituição e sem prejudicar as aulas.",
+    "Participação na sala de oração das 05h é voluntária; proteger sono, transporte e segurança de menores.",
+    "Provas de movimento devem ter adaptações inclusivas e proibir empurrões ou contato brusco.",
+    "Não publicar imagens, nomes de visitantes ou histórias pessoais sem autorização.",
+    "Ter versão de chuva para qualquer jogo ao ar livre.",
+    "Não fazer da participação espiritual ou da fé individual uma avaliação competitiva."
+  ]
+}
