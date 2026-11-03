@@ -1,54 +1,71 @@
 # JIDOK 2027 — Operação Legado
 
-Site do campeonato interno do ministério de adolescentes Dokmos.
+Planejamento do campeonato interno dos adolescentes DOKMOS, com cronograma completo, missões, ministérios, pontuação e final no acampamento.
 
-## Acessar o site
+## Site publicado
 
-O site é publicado automaticamente pelo **GitHub Pages** no endereço:
+**https://dimivigia-dev.github.io/Jidok-2027/**
 
-https://dimivigia-dev.github.io/Jidok-2027/
+Hospedagem: GitHub Pages, branch main, pasta raiz.
 
-> Publicações novas são implantadas automaticamente a partir da branch `main`.
+## Organização
 
-## Ativar o GitHub Pages
+- **index.html:** entrada do site e navegação.
+- **styles.css:** identidade visual profissional e layout para computador/iPhone/Android.
+- **app.js:** páginas, filtros, detalhes das provas, calculadora local e checklist.
+- **programacao.json:** dados editáveis de oito semanas, 48 provas regulares, oito domingos, oito estruturas, programação e regras da final.
 
-1. Abra este repositório no GitHub.
-2. Vá a **Settings** → **Pages**.
-3. Em **Build and deployment**, escolha **Deploy from a branch**.
-4. Selecione **main** e **/(root)** e clique em **Save**.
-5. Após o GitHub concluir a publicação, abra o endereço acima.
+## Calendário proposto
 
-## O que o site contém
+- **Sexta, 19h:** discipulado, sem pontos.
+- **Sexta, 20h:** início do culto, com até três desafios em blocos planejados, louvor, palavra e oração.
+- **Sábado, 14h30:** três jogos principais no espaço da igreja ou no sintético, quando necessário.
+- **Domingos 10, 17, 24, 31/01 e 07, 14, 21, 28/02:** contagem de convidados levados por cada time.
+- **05–07/03 (provisório):** acampamento. Sexta à noite culto; **sábado à tarde três jogos, um mega desafio e entrega do troféu**; domingo culto e convivência.
 
-- Agenda das sextas e dos sábados, de janeiro ao acampamento de março.
-- **56 provas:** 24 desafios das sextas (3 por noite) e 32 provas dos sábados (4 por tarde), com regras, materiais, participantes e cuidados de segurança.
-- Missões de SOS, GAD, New Breed, Flare Up, Vivacidade, IMS, GOE e Intercessão.
-- Placar e simulador de pontos.
-- Programação do acampamento, orçamento e checklist de preparação.
-- Interface adaptada para iPhone, Android, tablets e computadores.
+**Tema oficial ainda a definir pela liderança.** Nenhum conteúdo de IMS/GAD/SOS/New Breed deve ser tratado como tema confirmado.
 
-## Importante sobre o placar
+## Estruturas
 
-A edição atual é um **site estático sem autenticação e sem banco de dados**. Pontuações e alterações são salvas **somente no navegador do aparelho utilizado**. Não existe sincronização automática entre dispositivos nem painel administrativo protegido.
+**Toda semana:**
+- Flare Up: 20 pontos por célula escolar validada; máximo de 5 células e 100 pontos na semana. Respeitar autorizações da escola.
+- Intercessão: contagem voluntária na sala de oração de sexta às 05h. Classificação vale 50/35/20, sujeita à segurança e disponibilidade de transporte.
 
-Para um placar oficial compartilhado, será necessário adicionar backend, autenticação e banco de dados; não publique informações pessoais de adolescentes no protótipo.
+**Missões especiais (uma semana):**
+- GAD (22/01): teatro sobre o tema oficial.
+- SOS (29/01): dança/expressão sobre o tema oficial.
+- IMS (05/02): vídeo de 2 a 3 minutos sobre o tema oficial.
+- New Breed / Louvor (12/02): composição autoral ou vinheta sobre o tema.
+- Vivacidade (19/02): ação de serviço comunitário supervisionada.
+- GOE (26/02): projeto e simulação de acolhimento.
 
-## Dados e calendário
+As missões especiais usam a mesma rubrica de 150 pontos e não se repetem em todas as semanas.
 
-- As cores e os nomes das três equipes ainda são provisórios.
-- As datas do acampamento em março também são propostas, a confirmar.
-- As provas e pontuações são sugestões de planejamento sujeitas à aprovação dos líderes.
-- Respeite autorização dos responsáveis, privacidade dos adolescentes e supervisão das atividades.
+## Pontuação
 
-## Tecnologia
+- Sextas: 3 desafios × 40 pontos máximos = 120.
+- Sábados: 3 jogos × 80 pontos máximos = 240.
+- Domingo: convidados por colocação, 80/50/30.
+- Flare Up: até 100 pontos.
+- Intercessão: até 50.
+- Convidados de sexta: até 75.
+- Melhor caracterização: até 60.
+- Presença proporcional: até 80.
+- Espírito esportivo: até 30.
+- Missão especial da estrutura (se houver): até 150.
 
-A publicação é feita a partir de `index.html`, com CSS, JavaScript e dados integrados no próprio arquivo. Por isso, o GitHub Pages pode servir o site sem servidor PHP, Node.js ou banco de dados.
+Teto: **835 pontos por semana regular** ou **985 por semana com missão especial**.
 
-## Noites de missões — sextas-feiras
+Acampamento: três jogos de 150 pontos, mega desafio de 350 e encerramento cooperativo de 100 pontos iguais a todos: até **900 pontos** por equipe.
 
-- **19h00:** discipulado, sem pontuação.
-- **20h00:** início do culto. O encerramento às 21h55 é somente uma sugestão, a confirmar pela liderança.
-- **Três desafios temáticos completos a cada sexta:** sem categorias artificiais de relâmpago ou palco. Cada prova possui roteiro, participação, duração, materiais, critérios de vitória e segurança; são desafios de equipes, enigmas, movimento, música, criatividade e colaboração.
-- **Pontuação de sexta:** 1º 40, 2º 30 e 3º 20 pontos em cada prova, máximo de 120 pontos nas sextas. O máximo semanal permanece **855 pontos**.
-- **Placar detalhado:** lançamentos e tabela separada por desafio. A versão estática não compartilha resultados entre celulares.
-- **Compatibilidade:** o placar preserva pontuações únicas de sexta de versões antigas, sinalizando que não têm detalhamento por prova. Ao inserir as novas notas, o antigo total é substituído.
+## Limites importantes
+
+O site hospedado no GitHub Pages é estático. **Não há banco de dados nem autenticação.** A calculadora e o checklist salvam apenas no navegador da pessoa que estiver usando. Não existe placar oficial sincronizado.
+
+Para um placar real compartilhado é necessário desenvolver backend, contas de líderes, trilha de auditoria, permissões, validação e armazenamento.
+
+A escola, a igreja e os responsáveis devem aprovar as atividades. Não publicar dados pessoais de visitantes, nem imagens de adolescentes sem autorização. Não pontuar crença, orações individuais, conversões ou valores de doações.
+
+## Edição futura
+
+Para alterar jogos, datas e missões, editar **programacao.json**. Para alterar disposição e navegação, editar **app.js**. Para mudar identidade visual, editar **styles.css**. A estrutura anterior pode ser recuperada pelo histórico de commits do GitHub.
