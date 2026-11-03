@@ -1,10 +1,10 @@
 {
-  "version": "3.0",
+  "version": "4.0",
   "updated": "2026-11-03",
   "name": "JIDOK 2027 — Operação Legado",
   "officialTheme": "A definir pela liderança",
   "tagline": "Uma temporada. Três equipes. Uma história para contar.",
-  "status": "Planejamento proposto. Datas, temas e locais precisam de aprovação.",
+  "status": "Programação editável; pontuação livre. Tema e datas ainda dependem de confirmação.",
   "teams": [
     {
       "id": "azul",
@@ -129,60 +129,60 @@
       "saturdayConcept": "Três bases montadas no espaço da igreja; cores no chão e árbitros em cada estação.",
       "fridayGames": [
         {
-          "title": "Entrada Épica: bandeira e grito de guerra",
-          "duration": "15 min",
+          "title": "Desfile das Lendas",
+          "steps": "Entrada com música, bandeira, capitão e torcida. Cada time recebe até 3 minutos para apresentar sua identidade; o apresentador anuncia o tema e chama todos ao palco em rodízio.",
           "players": "Todo o time",
-          "materials": "Bandeiras, som e cronômetro",
-          "steps": "Cada equipe tem até 5 minutos para entrar, apresentar sua bandeira, identidade e grito de guerra. O júri usa critérios revelados previamente.",
-          "win": "Criatividade 15, organização 15 e participação 10; máximo de 40.",
-          "safety": "Sem fumaça, fogo, empurrões ou gastos obrigatórios."
+          "duration": "18 min",
+          "materials": "Som, microfone, bandeiras",
+          "win": "Júri neutro considera criatividade, participação, energia e organização.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "O Cofre das Três Cores",
-          "duration": "12 min",
-          "players": "6 por equipe",
-          "materials": "Envelopes, cadeados cenográficos ou caixas, pistas",
-          "steps": "Três pistas escondidas em zonas autorizadas levam à senha de um cofre simbólico. Toda a equipe pode orientar seus representantes da área reservada.",
-          "win": "Classificação por acertos; menor tempo desempata.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "A Última Peça",
-          "duration": "10 min",
+          "title": "Invasão das Cores",
+          "steps": "Três setores do salão viram territórios. Ao som da sirene, representantes correm até a estação e devem conquistar discos da própria cor, desviando de áreas bloqueadas, enquanto a torcida escolhe a estratégia.",
           "players": "8 por equipe",
-          "materials": "Quebra-cabeça grande dividido em envelopes",
-          "steps": "Os representantes revezam para coletar peças. Ao montar a frase final, devem explicá-la em 20 segundos.",
-          "win": "Frase correta primeiro; fiscais validam a montagem.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "duration": "12 min",
+          "materials": "Discos de EVA, cones e som",
+          "win": "Mais discos recuperados em três rodadas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "O Líder Paga o Mico",
+          "steps": "Líderes recebem missões inusitadas (conduzir uma dança, fazer uma narração esportiva, imitar um comercial da equipe); o time pode ajudá-los com comandos e torcida, sem humilhar ninguém.",
+          "players": "Líder + 6 por equipe",
+          "duration": "12 min",
+          "materials": "Cartas de ações, som",
+          "win": "Desempenho coletivo e criatividade, julgados por critérios públicos.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Domínio das Bandeiras",
-          "duration": "35 min",
-          "players": "8 por time em cada rodada",
-          "materials": "Três bandeiras, cones, fitas de delimitação",
-          "steps": "Em campo dividido, duas equipes enfrentam-se por 7 minutos; capturam a bandeira e a levam à própria base. A terceira equipe aguarda e entra no rodízio.",
-          "win": "Número de capturas, depois tempo; rodízio completo.",
-          "safety": "Sem segurar roupas, bloquear com o corpo ou empurrar."
+          "title": "Guerra das Bases 3×3",
+          "steps": "Campo dividido em três territórios com bandeiras. Cada time recebe um mapa visual das zonas e precisa capturar bandeiras e defendê-las. Rodadas de 8 minutos com troca dos jogadores.",
+          "players": "10 por equipe",
+          "duration": "45 min",
+          "materials": "Bandeiras, coletes, cones",
+          "win": "Capturas válidas; desempate por bandeiras defendidas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "O Chão é Lava: edição equipes",
-          "duration": "30 min",
-          "players": "7 por time",
-          "materials": "Placas EVA/papelão rígido, cones",
-          "steps": "Toda a equipe cruza uma pista sem pisar fora das placas. As placas não podem ser arremessadas e precisam ser recuperadas ao avançar.",
-          "win": "Todos atravessarem no menor tempo, com penalidade por toques no chão.",
-          "safety": "Usar piso seco e sem obstáculos elevados."
+          "title": "Queimada das Três Cores",
+          "steps": "Três times entram em rodadas alternadas com bolas de espuma. Cada rodada tem uma 'vida extra' para trazer um participante de volta.",
+          "players": "8 por equipe",
+          "duration": "40 min",
+          "materials": "Bolas de espuma, coletes",
+          "win": "Mais vitórias nas rodadas.",
+          "safety": "Não mirar na cabeça."
         },
         {
-          "title": "Guerra das Torres",
+          "title": "Corrida do Território",
+          "steps": "Em revezamento, equipes passam por ponte de placas no chão, tiro ao alvo e transporte de objetos. Cada fase chama um grupo novo.",
+          "players": "12 por equipe",
           "duration": "35 min",
-          "players": "6 por time",
-          "materials": "Copos recicláveis, elástico, cordas, fita",
-          "steps": "Com um elástico controlado por cordas, participantes montam uma torre seguindo um padrão surpresa, sem tocar nos copos.",
-          "win": "Torre estável, depois tempo; três tentativas por time.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "EVA, cones, argolas",
+          "win": "Menor tempo com penalidades por erros.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "A abertura precisa ter tempo maior para a apresentação de bandeiras. Se necessário, encurtar o terceiro jogo."
@@ -204,59 +204,59 @@
       "fridayGames": [
         {
           "title": "Controle Remoto Humano",
+          "steps": "Um jogador percorre uma arena de cones enquanto o restante do time dá comandos de direção. A cada 30 segundos um novo representante assume o controle e o percurso muda.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "5 por time",
-          "materials": "Cartões de comandos, cones",
-          "steps": "Um representante é o 'personagem'; a equipe recebe comandos e precisa orientá-lo a completar um trajeto de casas no chão. O juiz revela um comando novo a cada rodada.",
-          "win": "Mais etapas corretas em 8 minutos.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Cones, placas de comandos",
+          "win": "Mais voltas corretas; tempo desempata.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Dança de Comandos",
+          "title": "Dança do Caos",
+          "steps": "Uma música muda de estilo e velocidade; o DJ sinaliza movimentos obrigatórios. Time inteiro participa e precisa se reorganizar quando o líder apita 'troca de capitão'.",
+          "players": "Todo o time",
           "duration": "12 min",
-          "players": "8 por time",
-          "materials": "Som, cartões de movimentos",
-          "steps": "O líder sorteia oito movimentos. Cada equipe aprende a sequência e apresenta; no meio, um comando é trocado sem aviso.",
-          "win": "Sincronia, adaptação e participação; júri com critérios anunciados.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Caixa de som, cartões",
+          "win": "Sincronia, participação e improviso.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Missão Troca-Troca",
-          "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Cartões de tarefas, cronômetro",
-          "steps": "Três estações de habilidade, memória e pontaria. Depois de cada estação, o líder precisa escolher um integrante diferente para continuar.",
-          "win": "Mais estações corretas; tempo desempata.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "title": "A Grande Virada",
+          "steps": "Três equipes disputam estafetas curtas no corredor central: bola sem mãos, transferência de cones e equilíbrio com bandeja. Cada etapa chama representantes diferentes.",
+          "players": "9 por equipe",
+          "duration": "15 min",
+          "materials": "Bolas leves, bandejas, cones",
+          "win": "Mais etapas concluídas em tempo igual.",
+          "safety": "Sem corridas perto de cadeiras ou fios."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Queimada: Vidas Extras",
+          "title": "JIDOK Ninja Arena",
+          "steps": "Pista com cones, obstáculos baixos, cordas no chão e três desafios de agilidade. Time escolhe ordem dos corredores e os substitui a cada volta.",
+          "players": "10 por equipe",
+          "duration": "45 min",
+          "materials": "Cones, bambolês, cordas no chão",
+          "win": "Mais voltas completadas sem faltas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "Rouba-Cone Royale",
+          "steps": "Bases com 15 cones de cores. Jogadores tentam pegar cones nas outras bases sem ser tocados na área de defesa; todos devem retornar à própria base antes de buscar outro.",
+          "players": "9 por equipe",
           "duration": "40 min",
-          "players": "7 por time em cada partida",
-          "materials": "Bolas de espuma, cones",
-          "steps": "Cada equipe recebe três fichas de retorno. Quem for queimado abaixo dos ombros sai, mas pode retornar mediante uma ficha escolhida pelo capitão. Partidas em rodízio.",
-          "win": "Mais jogadores ativos no tempo final.",
-          "safety": "Somente bolas macias, não mirar no rosto."
+          "materials": "Cones coloridos e fitas",
+          "win": "Mais cones capturados em 3 rounds.",
+          "safety": "Contato restrito ao toque leve no ombro."
         },
         {
-          "title": "Rouba-Cone 360",
-          "duration": "30 min",
-          "players": "8 por time",
-          "materials": "Cones de três cores, demarcações",
-          "steps": "Cada base começa com 8 cones. Em rodadas cronometradas, participantes buscam um cone por viagem nas bases rivais; tocar um corredor na área de defesa o obriga a retornar sem cone.",
-          "win": "Maior quantidade de cones na base.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "Corrida do Caos",
+          "title": "Pega-Bandeira em Movimento",
+          "steps": "Cada base muda de lugar no apito, obrigando os times a criar estratégias novas. Rodízio de participantes em cada round.",
+          "players": "10 por equipe",
           "duration": "35 min",
-          "players": "8 por time",
-          "materials": "Copos, bolas de plástico, argolas, fita",
-          "steps": "Circuito de 5 fases com uma alteração surpresa de regra no meio. Revezamento com novos representantes a cada fase.",
-          "win": "Todas as fases concluídas, depois tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Bandeiras e cones",
+          "win": "Mais capturas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "Evitar coreografias que exponham quem não quer dançar; oferecer funções de direção e criação."
@@ -277,60 +277,60 @@
       "saturdayConcept": "Tarde no sintético, com jogos de agilidade e estratégia; alugar apenas se o orçamento permitir.",
       "fridayGames": [
         {
-          "title": "Dublagem Fora de Controle",
+          "title": "Dublagem Sem Freio",
+          "steps": "Dois encenam uma situação enquanto outros dois dublam ao vivo sem conhecer os gestos. Rodadas de 60 segundos com situações engraçadas e adequadas ao ambiente.",
+          "players": "4 por equipe",
           "duration": "12 min",
-          "players": "4 por time",
-          "materials": "Microfones ou som ambiente, cartões de cena",
-          "steps": "Dois participantes encenam sem falar e dois fazem as vozes, sem ensaio conjunto. O público recebe o contexto do sorteio.",
-          "win": "Criatividade, coerência e colaboração, 40 pontos possíveis.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Microfone, cartas de temas",
+          "win": "Criatividade e trabalho em dupla.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Cena Rebobina",
+          "title": "Troca de Cena!",
+          "steps": "As equipes encenam uma situação simples e, no apito, precisam mudar imediatamente de gênero: drama, comédia, esportes, telejornal ou filme de aventura.",
+          "players": "6 por equipe",
           "duration": "12 min",
-          "players": "5 por time",
-          "materials": "Cartões de situações, cronômetro",
-          "steps": "Cada time apresenta uma cena de 45 segundos e depois precisa reproduzi-la de trás para frente mantendo os mesmos objetos e ações.",
-          "win": "Coerência e inventividade, avaliadas por júri neutro.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Som e cartas",
+          "win": "Adaptação, participação e coerência.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Plot Twist Bíblico",
+          "title": "Diretor Maluco",
+          "steps": "Um diretor do time recebe instruções de apresentar uma cena de 60 segundos sem usar três palavras comuns. No meio, o apresentador muda a direção do roteiro.",
+          "players": "7 por equipe",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Envelopes com situações e reviravoltas",
-          "steps": "As equipes têm 90 segundos de preparação; aos 40 segundos da cena, recebem um novo elemento obrigatório.",
-          "win": "História compreensível, criatividade e participação.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Cartões de proibições",
+          "win": "Criatividade e desempenho em equipe.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Futebol de Missões 5×5",
+          "title": "Copa Maluca 5×5",
+          "steps": "Futebol 5×5 com partidas rápidas. A cada 4 minutos um regulamento surpresa seguro: gol só após passe coletivo, capitão vira goleiro ou dois jogadores novos entram.",
+          "players": "5 em campo + reservas",
           "duration": "45 min",
-          "players": "5 por time e reservas",
-          "materials": "Bola, coletes, gols",
-          "steps": "Partidas em rodízio. A cada 3 minutos o juiz anuncia uma missão: todos tocam na bola antes do gol, gol de primeira vale dobro ou novo capitão assume.",
-          "win": "Tabela 3/1/0 e saldo de gols como desempate.",
-          "safety": "Sem carrinhos, choques ou contato excessivo."
+          "materials": "Campo, bola, coletes",
+          "win": "Vitórias; saldo desempata.",
+          "safety": "Sem carrinhos ou contato duro."
+        },
+        {
+          "title": "Pênaltis da Torcida",
+          "steps": "Cada representante escolhe um alvo do gol, recebe incentivo da torcida e cobra pênalti. Todos os batedores devem ser diferentes.",
+          "players": "7 por equipe",
+          "duration": "35 min",
+          "materials": "Gol, bola, alvos de fita",
+          "win": "Mais pontos nos alvos.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
           "title": "Bandeirinha Estourou",
-          "duration": "35 min",
-          "players": "8 por equipe",
-          "materials": "Bandeiras e três alvos removíveis por base",
-          "steps": "Capture a bandeira adversária e, ao retornar à própria base, retire um alvo da base rival. O primeiro a retirar três alvos vence a rodada.",
-          "win": "Vitórias e capturas no rodízio.",
-          "safety": "Preferir alvos de papel/velcro aos balões se houver sensibilidade a ruídos."
-        },
-        {
-          "title": "Desafio Pênalti 27",
-          "duration": "30 min",
-          "players": "6 batedores diferentes por time",
-          "materials": "Bola, gol e alvos de fita",
-          "steps": "Cada participante escolhe um alvo de pontuação no gol. A equipe decide a ordem dos chutes antes de conhecer a rodada bônus.",
-          "win": "Soma dos alvos acertados; ninguém bate duas vezes antes de todos.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "steps": "Os times disputam captura de bandeiras em rodízio. Uma captura permite remover um alvo de velcro do painel adversário.",
+          "players": "9 por equipe",
+          "duration": "40 min",
+          "materials": "Bandeiras, velcro, cones",
+          "win": "Primeiro a remover os alvos rivais.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "Primeira noite de apresentação especial do GAD; a peça pontua em separado das três provas de sexta."
@@ -351,60 +351,60 @@
       "saturdayConcept": "Estações de PlayStation, futmesa e um grande game show com rodízio; priorizar equipamentos emprestados.",
       "fridayGames": [
         {
-          "title": "Sombra Perfeita",
-          "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Lanterna difusa, lençol opcional, cartões",
-          "steps": "Uma equipe cria três imagens corporais de histórias bíblicas; a outra identifica. Pode ser feito sem tela usando poses estáticas.",
-          "win": "Acertos e originalidade.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "Coreografia Mutante",
+          "title": "Batalha das Coreografias",
+          "steps": "Cada equipe recebe uma mesma batida e cria uma apresentação curtíssima para a torcida repetir. A organização avalia como conseguem envolver todo mundo.",
+          "players": "Todo o time",
           "duration": "13 min",
-          "players": "8 por time",
-          "materials": "Caixa de som, 3 cartões de movimentos",
-          "steps": "Cada equipe recebe um ritmo e três gestos obrigatórios, monta 45 segundos de sequência e adapta quando o juiz anuncia uma mudança.",
-          "win": "Participação, coerência e adaptação.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Som e espaço livre",
+          "win": "Envolvimento coletivo, criatividade e sincronização.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "O Clipe Improvável",
+          "title": "Dance Battle dos Capitães",
+          "steps": "Capitães sorteiam estilos e precisam chamar representantes diferentes para criar movimentos em roda. Sem eliminações por vergonha ou habilidade.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Celular de filmagem da organização, objetos de cena",
-          "steps": "Os participantes montam um videoclipe de 45 segundos em plano-sequência, contando uma mensagem com começo, meio e fim.",
-          "win": "Clareza, inventividade e cooperação.",
-          "safety": "Nenhuma publicação sem autorização de imagem."
+          "materials": "Caixa de som",
+          "win": "Participação e adaptação.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "Clipe em Uma Tomada",
+          "steps": "O time monta uma cena musical coletiva em uma única tomada de até 45 segundos. Deve envolver pelo menos seis pessoas e um elemento visual criado pelo grupo.",
+          "players": "6 a 12 por equipe",
+          "duration": "14 min",
+          "materials": "Celular da organização, som",
+          "win": "Clareza visual e criatividade.",
+          "safety": "Não compartilhar imagens sem autorização."
         }
       ],
       "saturdayGames": [
         {
           "title": "Copa PlayStation",
+          "steps": "Rodadas curtas de EA FC, todos contra todos. Equipes alternam dois jogadores por confronto e contam com torcida; projetar a partida em TV.",
+          "players": "2 por equipe por jogo",
           "duration": "45 min",
-          "players": "2 representantes por time, em rodízio",
-          "materials": "Console e TV emprestados, controles",
-          "steps": "Jogos curtos todos-contra-todos em EA FC ou jogo apropriado. Tempo de jogo igual para todas as equipes; rodadas e ajustes de empate divulgados.",
-          "win": "Pontos por partida e saldo de gols.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Console, controles, TV",
+          "win": "Vitórias e saldo de gols.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
           "title": "Futmesa Champions",
+          "steps": "Duplas fazem partidas rápidas de sete pontos. Mudar a dupla a cada confronto para diversificar os participantes.",
+          "players": "Duplas em rodízio",
           "duration": "40 min",
-          "players": "2 duplas diferentes por equipe",
-          "materials": "Mesa própria/emprestada, bola adequada",
-          "steps": "Duplas se enfrentam em sets de 7 pontos. Até três toques por lado, sem braços ou mãos.",
-          "win": "Mais sets vencidos; saldo de pontos desempata.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Mesa de futmesa, bola",
+          "win": "Sets vencidos e saldo.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Passa ou Repensa: Arena Gigante",
-          "duration": "35 min",
-          "players": "Todo o time por turnos",
-          "materials": "Placas A/B/C, projetor, envelopes",
-          "steps": "Rodadas de estratégia, cultura bíblica, memória e desafios de objetos. Não há 'torta na cara': errou, o outro time recebe chance.",
-          "win": "Maior soma de respostas certas.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "title": "Mario Kart Humano",
+          "steps": "Participantes pilotam 'carros' de papelão abertos nas laterais em pista de cones, recolhendo cartas de turbo e desviando de obstáculos. Tudo caminhando ou trotando.",
+          "players": "6 por equipe",
+          "duration": "40 min",
+          "materials": "Papelão, fitas, cones, cartas",
+          "win": "Mais voltas válidas.",
+          "safety": "Sem vendas, colisões ou carros amarrados ao corpo."
         }
       ],
       "weeklyNote": "Os representantes dos videogames e futmesa devem rodar para não concentrar os pontos nos mais habilidosos."
@@ -425,60 +425,60 @@
       "saturdayConcept": "Grande caça a pistas no próprio espaço da igreja, com salas e zonas claramente demarcadas.",
       "fridayGames": [
         {
-          "title": "Hackeie a Mensagem",
+          "title": "Trailer que Vira Realidade",
+          "steps": "Depois dos vídeos IMS, cada equipe recebe uma cena surpresa e tem 90 segundos para recriá-la ao vivo como filme de ação leve, com humor e participação coletiva.",
+          "players": "6 por equipe",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Cartões com cifras e trechos de texto",
-          "steps": "Cada equipe recebe uma cifra diferente de dificuldade equivalente; deve reconstruir a frase sem consultar celular.",
-          "win": "Mensagem exata e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Objetos cenográficos leves",
+          "win": "Criatividade e participação.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Agentes em Silêncio",
+          "title": "Agente Duplo",
+          "steps": "Um representante tenta identificar qual dos três colegas trocou discretamente de lugar ou acessório em uma cena mostrada por 15 segundos; a torcida escolhe estratégia.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "7 por time",
-          "materials": "Cartões de símbolos, fita de chão",
-          "steps": "Um agente visualiza o código e orienta colegas apenas por gestos para posicionarem cartões num painel.",
-          "win": "Sequência correta; tempo desempata.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Acessórios e cortina visual",
+          "win": "Maior número de identificações corretas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Túnel de Dados",
-          "duration": "12 min",
-          "players": "8 por time",
-          "materials": "Copos e cartões de pistas",
-          "steps": "Os integrantes formam uma cadeia e transportam peças sem usar as mãos; cada peça completa um código final.",
-          "win": "Mais peças entregues corretamente.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "title": "Infiltração 27",
+          "steps": "Três bases com guardas de cada time. Em rodadas rápidas e sem contato, jogadores precisam resgatar um totem de EVA no centro e retornar à base sem entrar na zona proibida.",
+          "players": "8 por equipe",
+          "duration": "15 min",
+          "materials": "Totens macios e fitas",
+          "win": "Mais totens recuperados.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Caça ao Tesouro 360",
+          "title": "Among Us Ao Vivo",
+          "steps": "Três equipes recebem tarefas físicas simples em estações: acertar alvos, transportar itens e fazer mímicas. Há sabotadores designados pela organização que só podem atrasar usando cartas de ação, nunca bloquear pessoas.",
+          "players": "10 por equipe",
           "duration": "45 min",
-          "players": "6–10 por time",
-          "materials": "12 envelopes, mapa do espaço, fichas",
-          "steps": "Pistas em ordem não linear levam a cinco selos. Cada equipe inicia em ponto diferente para evitar aglomeração.",
-          "win": "Selos corretos e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Cartas, cones, argolas",
+          "win": "Mais tarefas concluídas; revelar sabotadores rende bônus.",
+          "safety": "Sem acusações pessoais ou contato."
         },
         {
-          "title": "Labirinto Laser",
+          "title": "Caça ao Espião",
+          "steps": "Cada time deve encontrar o agente da organização vestido com acessório de uma cor específica e cumprir uma missão de habilidade no local. Os agentes mudam de ponto entre rodadas.",
+          "players": "8 por equipe",
           "duration": "35 min",
-          "players": "6 por time",
-          "materials": "Barbantes e fita de baixa tensão",
-          "steps": "Os representantes passam por uma rede de fios entre cadeiras sem tocar os fios; uma segunda etapa exige retirar uma pista.",
-          "win": "Menor número de toques e tempo.",
-          "safety": "Não usar luz laser verdadeira; corredor livre e sem risco de tropeço."
+          "materials": "Coletes, cartões e cones",
+          "win": "Mais missões concluídas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "O Código dos 8 Portais",
-          "duration": "35 min",
-          "players": "8 por time",
-          "materials": "Cartões de quebra-cabeça e oito estações",
-          "steps": "Cada estação resolve um enigma diferente; as respostas formam a senha final da caixa cenográfica.",
-          "win": "Mais portais resolvidos, depois tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "title": "Fortaleza dos Cones",
+          "steps": "Três bases e discos de EVA. As equipes devem defender seus cones e conquistar os adversários em rounds curtos, sem sair da área autorizada.",
+          "players": "10 por equipe",
+          "duration": "40 min",
+          "materials": "Cones e discos EVA",
+          "win": "Mais cones remanescentes na própria base.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "Perto do Carnaval: todas as atividades podem ser feitas na igreja e a pontuação por presença deve considerar ausências justificadas."
@@ -499,60 +499,60 @@
       "saturdayConcept": "Uma tarde com jogos em formato de programa de auditório, com provas de torcida e quebra-cabeças gigantes.",
       "fridayGames": [
         {
-          "title": "Maestro Invisível",
+          "title": "A Banda Inesperada",
+          "steps": "Cada time prepara em 2 minutos uma vinheta original curta, usando instrumentos, palmas e vozes. O apresentador muda o estilo na metade da apresentação.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "8 por time",
-          "materials": "Palmas e cartões de ritmo",
-          "steps": "Um participante vê a sequência de palmas e precisa ensinar aos colegas sem vocalizar números; mudanças ocorrem a cada rodada.",
-          "win": "Mais sequências corretas.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Percussão corporal e instrumentos emprestados",
+          "win": "Criatividade e adaptação.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Banda de Última Hora",
+          "title": "DJ Contra a Torcida",
+          "steps": "O DJ toca mudanças inesperadas de ritmo. Representantes executam passos ou sequências escolhidas pelo time, enquanto todos acompanham com palmas.",
+          "players": "Todo o time",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Instrumentos simples/objetos de percussão",
-          "steps": "Cada equipe recebe 4 palavras sobre o tema provisório e cria uma vinheta autoral de até 40 segundos.",
-          "win": "Criatividade, participação, clareza e ritmo.",
-          "safety": "Sem avaliar a 'qualidade espiritual' ou talentos profissionais."
+          "materials": "Caixa de som",
+          "win": "Participação e sincronia.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Hit Secreto",
+          "title": "Aplausômetro Criativo",
+          "steps": "A organização apresenta 3 situações: fazer uma introdução de evento, um jingle e uma torcida original, cada uma em 30 segundos. O júri observa participação, não volume.",
+          "players": "Todo o time",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Instrumentos e áudios próprios ou autorizados",
-          "steps": "Rodadas para reconhecer melodias curtas e completar frases bíblicas associadas a elas, com rodízio obrigatório.",
-          "win": "Mais respostas corretas.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Microfone e cronômetro",
+          "win": "Criatividade, organização e participação.",
+          "safety": "Não usar volume excessivo."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Torre Humana de Copos",
-          "duration": "35 min",
-          "players": "8 por time",
-          "materials": "Copos plásticos, elástico e cordas",
-          "steps": "Com apenas cordas, o grupo monta três estruturas cujos modelos são revelados progressivamente.",
-          "win": "Mais estruturas perfeitas e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "Guerra dos Botões",
-          "duration": "35 min",
-          "players": "6 por time",
-          "materials": "Campainhas ou placas A/B/C",
-          "steps": "Jogo de perguntas em rodadas com seleção estratégica de capitães e bônus de dificuldade.",
-          "win": "Total de respostas corretas.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "Mega Dominó Vivo",
+          "title": "Bola Gigante Challenge",
+          "steps": "Equipes transportam uma bola grande por percurso de cones sem usar as mãos; cada trecho troca os carregadores.",
+          "players": "8 por equipe",
           "duration": "40 min",
-          "players": "9 por time",
-          "materials": "Peças EVA/cartolina e desafios",
-          "steps": "Cada equipe precisa conectar 24 peças gigantes por associação de símbolos, pistas e versículos.",
-          "win": "Cadeia completa, tempo desempata.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Bola inflável grande e cones",
+          "win": "Menor tempo, penalidade por queda.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "Vôlei Lençol",
+          "steps": "Times usam lençol firme para arremessar bola leve sobre rede baixa para o outro lado. Toda a equipe deve segurar seu lado do tecido.",
+          "players": "6 por equipe",
+          "duration": "40 min",
+          "materials": "Lençóis firmes, bola leve, rede baixa",
+          "win": "Mais sets vencidos.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "Desafio dos 100 Cones",
+          "steps": "Cada time disputa quatro fases: recolher cones, reorganizar por cor, transporte cooperativo e corrida de revezamento. Sem raciocínios/charadas.",
+          "players": "10 por equipe",
+          "duration": "35 min",
+          "materials": "100 cones ou copos reutilizáveis",
+          "win": "Mais fases terminadas; tempo desempata.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "A apresentação do Louvor tem pontuação por composição coletiva; o culto de adoração não é julgado."
@@ -573,60 +573,60 @@
       "saturdayConcept": "Desafios de construção e colaboração, com uma ação prática de serviço comunitário supervisionado em horário combinado.",
       "fridayGames": [
         {
-          "title": "Cidade em Colapso",
+          "title": "Desafio 1 Minuto para Ajudar",
+          "steps": "Em uma arena com objetos cenográficos, times devem organizar uma pequena ação de acolhimento em tempo limitado: recepção, orientação e entrega simbólica.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Mapa fictício e cartas de recursos",
-          "steps": "Cada equipe recebe situações de crise comunitária e 10 fichas de recurso. Precisa priorizar três soluções sob pressão do relógio.",
-          "win": "Critérios objetivos: cobertura, justificativa e cooperação.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Mesas, placas e objetos leves",
+          "win": "Agilidade, organização e cooperação.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Correio Impossível",
+          "title": "Correio Humano",
+          "steps": "Equipes precisam entregar mensagens positivas a três estações, desviando de caminhos fechados e trocando de mensageiro a cada entrega.",
+          "players": "9 por equipe",
           "duration": "12 min",
-          "players": "8 por time",
-          "materials": "Envelopes, cones e mapas",
-          "steps": "Revezamento para entregar oito mensagens em endereços de um mapa; parte do percurso só libera quando uma pista é resolvida.",
-          "win": "Entregas corretas e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Cartões, cones, fitas",
+          "win": "Mais entregas completas e válidas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Mapa Vivo 27",
+          "title": "A Escolha do Capitão",
+          "steps": "O apresentador oferece situações fictícias e três possibilidades de ação. O capitão escolhe, mas só ganha a rodada se o time demonstrar a solução de forma prática em 45 segundos.",
+          "players": "6 por equipe",
           "duration": "12 min",
-          "players": "7 por time",
-          "materials": "Fita no chão, cartões de locais",
-          "steps": "O chão vira um mapa; os participantes posicionam lugares e caminhos com base em dicas que chegam em sequência.",
-          "win": "Mais locais corretos e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Cartões de situações",
+          "win": "Cooperação, clareza e criatividade.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Desafio da Ponte",
-          "duration": "35 min",
-          "players": "8 por time",
-          "materials": "Papelão, barbante, fita e um objeto de teste",
-          "steps": "Cada grupo constrói uma ponte para sustentar um objeto-padrão durante 10 segundos, com materiais e tempo iguais.",
-          "win": "Sustenta o objeto, depois economia de material.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "Missão Entrega Perfeita",
-          "duration": "35 min",
-          "players": "8 por time",
-          "materials": "Caixas vazias, carrinhos ou bandejas",
-          "steps": "Entregar kits simbólicos por percurso com revezamento, interpretação de mapa e validação de itens, sem objetos pesados.",
-          "win": "Itens e endereços corretos.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
-        },
-        {
-          "title": "Batalha dos Construtores",
+          "title": "Copa dos Capitães",
+          "steps": "Capitães comandam um time misto em provas de liderança: mover bolas por canos, corrida de argolas, alvo gigante e revezamento.",
+          "players": "10 por equipe",
           "duration": "40 min",
-          "players": "8 por time",
-          "materials": "Papelão e materiais reutilizáveis",
-          "steps": "Montar um abrigo simbólico em miniatura com requisitos surpresa de estabilidade e acessibilidade.",
-          "win": "Critérios iguais: estabilidade, acessibilidade, criatividade.",
-          "safety": "Não usar ferramentas cortantes sem adulto."
+          "materials": "Canos de papelão, argolas, cones",
+          "win": "Tempo total e precisão.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "Bandeirinha Superpoderes",
+          "steps": "Cada equipe tem duas cartas de poder equilibradas: trocar capitão ou proteger base durante 30 segundos. Capturas ocorrem em rodízio.",
+          "players": "9 por equipe",
+          "duration": "45 min",
+          "materials": "Bandeiras, coletes, cartas",
+          "win": "Mais bandeiras capturadas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "Queimada Virada Épica",
+          "steps": "Queimada em rounds com retorno único e troca de capitão; jogadores eliminados apoiam na arbitragem de linhas.",
+          "players": "8 por equipe",
+          "duration": "40 min",
+          "materials": "Bolas de espuma",
+          "win": "Mais vitórias e jogadores ativos.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "Vivacidade: ações reais apenas com autorização, supervisão e sem competição por quantidade de doações."
@@ -647,60 +647,60 @@
       "saturdayConcept": "Último sábado da temporada regular, com três disputas marcantes e classificação revisada.",
       "fridayGames": [
         {
-          "title": "Boss Fight da Palavra",
+          "title": "Disputa dos Capitães",
+          "steps": "Três capitães competem em rodada de pontaria com alvos; a cada acerto, escolhem outro integrante para assumir. Nenhum participante repete antes de rodar o grupo.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "6 por time",
-          "materials": "Projetor, placas de respostas",
-          "steps": "Quiz com três fases: imagens, referências e enigmas bíblicos. Cada fase exige representantes novos.",
-          "win": "Total de respostas corretas, depois fase mais difícil.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Alvos e saquinhos de tecido",
+          "win": "Mais alvos atingidos.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         },
         {
-          "title": "Resgate 27: Operação GOE",
+          "title": "Missão Resgate ao Vivo",
+          "steps": "Um boneco cenográfico precisa ser levado por um circuito de obstáculos leves em uma maca simbólica feita de material seguro, sem correr.",
+          "players": "8 por equipe",
           "duration": "12 min",
-          "players": "8 por time",
-          "materials": "Envelopes, boneco simbólico, cones",
-          "steps": "Cada equipe encontra três pistas de acolhimento, monta o caminho de resgate e entrega um cartão de boas-vindas sem expor pessoas reais.",
-          "win": "Pistas corretas, colaboração e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Boneco leve e placa rígida curta",
+          "win": "Menor tempo sem faltas.",
+          "safety": "Sem transportar pessoas reais."
         },
         {
-          "title": "Portal do Acampamento",
-          "duration": "12 min",
-          "players": "Todo o time",
-          "materials": "Oito símbolos das semanas, quebra-cabeça",
-          "steps": "Reunir as referências das oito semanas em um painel e descobrir um código que será utilizado no último sábado.",
-          "win": "Mais conexões corretas e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "title": "A Última Virada",
+          "steps": "No final da temporada, cada equipe enfrenta uma estação de habilidade sorteada: alvo, equilíbrio ou coordenação. A torcida participa da decisão de estratégia.",
+          "players": "9 por equipe",
+          "duration": "14 min",
+          "materials": "Cones, alvos e argolas",
+          "win": "Pontuação acumulada nas três rodadas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "saturdayGames": [
         {
-          "title": "Queimada: Final de Temporada",
+          "title": "Queimada Royale — Pré-Final",
+          "steps": "Três rodadas com regras diferentes: vida extra, capitão protegido e volta de um eliminado. Revezamento obrigatório.",
+          "players": "8 por equipe",
           "duration": "40 min",
-          "players": "7 por time e reservas",
-          "materials": "Bolas leves, cones",
-          "steps": "Chave em rodízio com três partidas; cada time possui duas fichas de retorno por rodada.",
+          "materials": "Bolas de espuma, coletes",
           "win": "Vitórias e jogadores ativos.",
-          "safety": "Bolas leves e sem arremessos na cabeça."
+          "safety": "Não mirar no rosto."
         },
         {
-          "title": "Bandeirinha dos Três Reis",
+          "title": "Bandeirinha de Três Bases",
+          "steps": "Três bases simultâneas e caminhos demarcados. Capturas valem uma coroa simbólica no painel.",
+          "players": "10 por equipe",
+          "duration": "45 min",
+          "materials": "Bandeiras, cones, painéis de velcro",
+          "win": "Mais coroas coletadas.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
+        },
+        {
+          "title": "O Grande Revezamento",
+          "steps": "Circuito de velocidade e habilidade com carrinho de cones, equilíbrio de bola e alvo final; cada time precisa usar novos jogadores a cada fase.",
+          "players": "12 por equipe",
           "duration": "40 min",
-          "players": "8 por time",
-          "materials": "Três bases e bandeiras",
-          "steps": "Três equipes em campo simultâneo com áreas de captura e devolução. Uma captura libera um selo simbólico.",
-          "win": "Mais selos capturados; árbitros monitoram cada base.",
-          "safety": "Não correr em corredores estreitos."
-        },
-        {
-          "title": "Circuito dos Capitães",
-          "duration": "35 min",
-          "players": "10 por time, ninguém repetido na mesma fase",
-          "materials": "Cones, argolas, cartas e peças",
-          "steps": "Cinco etapas de habilidade, cooperação e lógica. Cada capitão escolhe uma sequência diferente de representantes.",
-          "win": "Etapas concluídas e tempo.",
-          "safety": "Sem empurrões, contato físico ou exposição de participantes."
+          "materials": "Cones, bolas leves e argolas",
+          "win": "Menor tempo com penalidades.",
+          "safety": "Sem contato brusco; áreas demarcadas e supervisão."
         }
       ],
       "weeklyNote": "Divulgar o placar da temporada antes do acampamento, sem anunciar campeão antecipadamente."
@@ -713,11 +713,11 @@
       "type": "semanal",
       "start": "08/01",
       "end": "26/02",
-      "score": 100,
+      "score": null,
       "idea": "Células nas escolas",
-      "rules": "Cada célula realizada na escola e validada pela liderança soma 20 pontos, até 5 por semana (máximo 100). É preciso autorização da escola e responsável adulto; a atividade não pode interromper aulas nem constranger colegas. Enviar data, local autorizado e confirmação do líder, sem dados dos alunos.",
+      "rules": "O resultado é contabilizado pelo número de células validadas pela liderança em cada semana, sem teto de pontuação previamente fixado. É preciso autorização da escola e responsável adulto; a atividade não pode interromper aulas nem constranger colegas. Enviar data, local autorizado e confirmação do líder, sem dados dos alunos.",
       "deliver": "Registro semanal com data e validação do responsável",
-      "criteria": "20 por célula confirmada; máximo de 100 por equipe/semana"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "intercessao",
@@ -725,11 +725,11 @@
       "type": "semanal",
       "start": "08/01",
       "end": "26/02",
-      "score": 50,
+      "score": null,
       "idea": "Presença na sala de oração de sexta às 05h",
-      "rules": "Conta-se o número de integrantes de cada time presentes na sala de oração, mediante registro simples do responsável, com pontuação por colocação 50/35/20. Participação é voluntária; a liderança deve avaliar transporte, sono, idade e possibilidades de participação segura. Não comparar intensidade da fé.",
+      "rules": "A organização registra o número de integrantes de cada equipe presentes na sala de oração e atribui a pontuação anunciada para a semana, sem teto pré-fixado. Participação é voluntária; a liderança deve avaliar transporte, sono, idade e possibilidades de participação segura. Não comparar intensidade da fé.",
       "deliver": "Contagem validada do responsável pela sala de oração",
-      "criteria": "1º 50 / 2º 35 / 3º 20; empates recebem a mesma colocação"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "gad",
@@ -737,11 +737,11 @@
       "type": "especial",
       "date": "22/01",
       "week": 3,
-      "score": 150,
+      "score": null,
       "idea": "Apresentação teatral sobre o tema oficial",
       "rules": "Cada equipe prepara uma peça de 5 a 7 minutos, com começo, conflito e solução. Tema: o tema oficial do JIDOK, quando divulgado. O júri avalia coerência, criatividade, participação, organização e clareza. Todos recebem mesma duração e equipamento básico.",
       "deliver": "Sinopse e lista de necessidades técnicas até a quarta anterior; apresentação em 22/01",
-      "criteria": "Rubrica comum de 150 pontos"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "sos",
@@ -749,11 +749,11 @@
       "type": "especial",
       "date": "29/01",
       "week": 4,
-      "score": 150,
+      "score": null,
       "idea": "Apresentação de dança sobre o tema oficial",
       "rules": "Montar coreografia autoral de 3 a 5 minutos, explicando visualmente o tema. Valorizar expressão e envolvimento, não apenas técnica. Usar trilhas autorizadas e movimentos seguros.",
       "deliver": "Trilha e ficha técnica até a quarta anterior; apresentação em 29/01",
-      "criteria": "Rubrica comum de 150 pontos"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "ims",
@@ -761,11 +761,11 @@
       "type": "especial",
       "date": "05/02",
       "week": 5,
-      "score": 150,
+      "score": null,
       "idea": "Vídeo sobre o tema oficial do JIDOK",
       "rules": "Produzir vídeo de 2 a 3 minutos, gravado no celular, com narrativa própria e mensagem alinhada ao tema oficial que ainda será anunciado. Cada equipe recebe o mesmo briefing e prazo de produção; evitar rostos de menores sem autorização.",
       "deliver": "Arquivo MP4 até 03/02; exibição dos três vídeos no culto de 05/02",
-      "criteria": "Rubrica comum de 150 pontos"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "louvor",
@@ -773,11 +773,11 @@
       "type": "especial",
       "date": "12/02",
       "week": 6,
-      "score": 150,
+      "score": null,
       "idea": "Trilha ou composição original do JIDOK",
       "rules": "Criar uma vinheta ou música autoral de 60 a 90 segundos inspirada no tema oficial, com participação do time. Pode ser acústica, coral, rap autoral ou percussão. A avaliação é sobre criação e cooperação, não desempenho espiritual.",
       "deliver": "Letra e arquivo de áudio ou apresentação em 12/02",
-      "criteria": "Rubrica comum de 150 pontos"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "vivacidade",
@@ -785,11 +785,11 @@
       "type": "especial",
       "date": "19/02",
       "week": 7,
-      "score": 150,
+      "score": null,
       "idea": "Ação de impacto na comunidade",
-      "rules": "Cada time planeja uma ação pequena de serviço viável e segura (cartas, cuidado de espaço autorizado, ajuda comunitária) com supervisão. A pontuação considera impacto do projeto e participação, nunca valor financeiro, quantidade de doações ou exposição de pessoas.",
+      "rules": "Cada time planeja uma ação pequena de serviço viável e segura (cartas, cuidado de espaço autorizado, ajuda comunitária) com supervisão. A avaliação considera impacto do projeto e participação, nunca valor financeiro, quantidade de doações ou exposição de pessoas.",
       "deliver": "Plano aprovado antes da ação e relato objetivo em 19/02",
-      "criteria": "Rubrica comum de 150 pontos"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     },
     {
       "id": "goe",
@@ -797,143 +797,45 @@
       "type": "especial",
       "date": "26/02",
       "week": 8,
-      "score": 150,
+      "score": null,
       "idea": "Experiência de acolhimento e resgate",
       "rules": "Planejar uma recepção exemplar a novos participantes e apresentar simulação de acompanhamento em situações cotidianas. Não identificar adolescentes afastados, nem usar histórias pessoais em competição.",
       "deliver": "Plano de acolhimento e demonstração em 26/02",
-      "criteria": "Rubrica comum de 150 pontos"
+      "criteria": "Pontuação livre definida e publicada pela organização"
     }
   ],
   "scoring": {
+    "policy": "Lançamentos livres, sem teto de pontos por prova, semana ou equipe. Cada lançamento tem origem, data, equipe, responsável e histórico imutável; ajustes são novos lançamentos.",
     "categories": [
-      {
-        "key": "fri1",
-        "label": "1ª missão de sexta",
-        "max": 40,
-        "method": "1º 40 / 2º 30 / 3º 20"
-      },
-      {
-        "key": "fri2",
-        "label": "2ª missão de sexta",
-        "max": 40,
-        "method": "1º 40 / 2º 30 / 3º 20"
-      },
-      {
-        "key": "fri3",
-        "label": "3ª missão de sexta",
-        "max": 40,
-        "method": "1º 40 / 2º 30 / 3º 20"
-      },
-      {
-        "key": "sat1",
-        "label": "1º jogo de sábado",
-        "max": 80,
-        "method": "1º 80 / 2º 55 / 3º 35"
-      },
-      {
-        "key": "sat2",
-        "label": "2º jogo de sábado",
-        "max": 80,
-        "method": "1º 80 / 2º 55 / 3º 35"
-      },
-      {
-        "key": "sat3",
-        "label": "3º jogo de sábado",
-        "max": 80,
-        "method": "1º 80 / 2º 55 / 3º 35"
-      },
-      {
-        "key": "sunday",
-        "label": "Convidados de domingo",
-        "max": 80,
-        "method": "1º 80 / 2º 50 / 3º 30; contagem por domingo"
-      },
-      {
-        "key": "flare",
-        "label": "Flare Up: células",
-        "max": 100,
-        "method": "20 por célula confirmada, até 5 na semana"
-      },
-      {
-        "key": "prayer",
-        "label": "Intercessão: sala de oração",
-        "max": 50,
-        "method": "1º 50 / 2º 35 / 3º 20; presença voluntária"
-      },
-      {
-        "key": "friGuests",
-        "label": "Convidados de sexta",
-        "max": 75,
-        "method": "15 por visitante, até 5"
-      },
-      {
-        "key": "costume",
-        "label": "Caracterização",
-        "max": 60,
-        "method": "1º 60 / 2º 40 / 3º 20"
-      },
-      {
-        "key": "attendance",
-        "label": "Presença proporcional do time",
-        "max": 80,
-        "method": "80 × presentes / inscritos no time"
-      },
-      {
-        "key": "fairplay",
-        "label": "Espírito esportivo",
-        "max": 30,
-        "method": "Até 30 por cooperação e respeito"
-      },
-      {
-        "key": "special",
-        "label": "Missão especial do ministério",
-        "max": 150,
-        "method": "Somente nas semanas 3–8; rubrica de cinco critérios"
-      }
-    ],
-    "weeklyBaseMax": 835,
-    "specialMax": 150,
-    "weeklySpecialMax": 985,
-    "prizeFriday": "Cada missão de sexta: 40 / 30 / 20",
-    "prizeSaturday": "Cada jogo de sábado: 80 / 55 / 35",
-    "sunday": "Convidados contados por domingo: 80 / 50 / 30",
-    "sundayRules": "Visitante conta uma vez por culto dominical e para apenas uma equipe; presença confirmada por recepção. Pode contar novamente em outro domingo. Empates recebem a pontuação da mesma colocação.",
-    "firstFriday": "Convidados nas sextas: 15 por visitante por noite, até 75 pontos por equipe na semana.",
-    "rubric": [
-      {
-        "name": "Fidelidade ao tema",
-        "max": 40
-      },
-      {
-        "name": "Criatividade",
-        "max": 30
-      },
-      {
-        "name": "Participação",
-        "max": 30
-      },
-      {
-        "name": "Clareza da mensagem",
-        "max": 30
-      },
-      {
-        "name": "Organização",
-        "max": 20
-      }
+      "Cultos de sexta",
+      "Jogos de sábado",
+      "Convidados de domingo",
+      "Flare Up — células escolares",
+      "Intercessão — sala de oração",
+      "GAD — Teatro",
+      "SOS — Dança",
+      "IMS — Mídias",
+      "New Breed — Louvor",
+      "Vivacidade",
+      "GOE — Acolhimento",
+      "Acampamento — jogos",
+      "Acampamento — mega final",
+      "Bônus",
+      "Correção"
     ],
     "notes": [
-      "Não publicar nomes nem dados de visitantes no placar.",
-      "Desafios semanais de Flare Up e Intercessão são acompanhados em todas as oito semanas.",
-      "Missões especiais de 150 pontos acontecem apenas nas semanas 3 a 8.",
-      "Em semanas sem missão especial, o total máximo é 835; com missão, 985.",
-      "Todas as equipes podem empatar e receber a mesma colocação quando a regra permitir.",
-      "Placar editado no navegador é apenas simulação local e nunca pontuação oficial compartilhada.",
-      "Absolutamente nenhuma pontuação por conversão, intensidade da oração ou valor de doações."
+      "Não há limite máximo de pontos nem pontuação automática obrigatória.",
+      "Os organizadores definem e divulgam o valor de cada prova antes dela começar.",
+      "Toda mudança de placar exige um novo lançamento; resultados anteriores permanecem no histórico.",
+      "A contagem de convidados dos domingos deve ser conferida pela recepção da igreja.",
+      "Não publicar dados pessoais de convidados ou adolescentes.",
+      "Participação na sala de oração é voluntária; adotar cuidado com sono, transporte e idade.",
+      "Não pontuar conversão religiosa, fé individual ou valor financeiro de doações."
     ]
   },
   "camp": {
     "dates": "05 a 07/03/2027 — datas provisórias",
-    "note": "O tema oficial e as datas do acampamento ainda serão confirmados.",
+    "note": "Datas do acampamento e horários são sugestões sujeitas a confirmação. Premiação no sábado à tarde após três jogos e a mega final.",
     "friday": [
       {
         "time": "19h00",
@@ -954,53 +856,53 @@
     "saturday": [
       {
         "time": "08h30",
-        "title": "Café e convivência",
-        "desc": "Momento livre com supervisão, sem pontuação."
+        "title": "Convivência, café e preparação",
+        "desc": "Descanso, água e atividades livres. Sem pontos."
       },
       {
         "time": "10h00",
-        "title": "Culto / momento devocional",
-        "desc": "Preparação espiritual sem competição."
+        "title": "Culto e momento de ministração",
+        "desc": "Fé e comunhão sem competição."
       },
       {
         "time": "13h30",
         "title": "Abertura da Arena Final",
-        "desc": "Hidratação, conferência de equipes, explicação dos árbitros."
+        "desc": "Entrada das três equipes, apresentação dos árbitros, avisos de segurança, DJ e torcida."
       },
       {
         "time": "14h00",
-        "title": "Jogo 1 — Guerra dos Territórios",
-        "desc": "Bandeirinha tática em rodízio; 1º 150, 2º 110, 3º 80."
+        "title": "Jogo 1 — Fortaleza 27",
+        "desc": "Guerra das três bases com bandeiras e coroas."
       },
       {
         "time": "14h50",
-        "title": "Jogo 2 — Circuito do Impossível",
-        "desc": "Cinco estações alternando velocidade, cooperação, pontaria e lógica; 150/110/80."
+        "title": "Jogo 2 — Queimada Royale",
+        "desc": "Três rodadas com poderes especiais de retorno e escudo."
       },
       {
         "time": "15h40",
-        "title": "Jogo 3 — Caçada das Oito Chaves",
-        "desc": "Caça ao tesouro com enigmas de todas as semanas; 150/110/80."
+        "title": "Jogo 3 — Circuito Insano",
+        "desc": "Revezamento gigante com quatro setores de cooperação e habilidade."
       },
       {
         "time": "16h30",
-        "title": "Intervalo e conferência",
-        "desc": "Água, lanche leve, auditoria das três provas."
+        "title": "Pausa + checagem do placar",
+        "desc": "Hidratação e conferência dos lançamentos pela arbitragem."
       },
       {
         "time": "16h50",
-        "title": "MEGA DESAFIO — O Último Código",
-        "desc": "Final de 50 minutos com mapa, pistas, representantes distintos e baú final; 1º 350, 2º 260, 3º 180."
+        "title": "MEGA FINAL — Dominação 27",
+        "desc": "Quatro fases dinâmicas, torcida, cronômetro e disputa pelas coroas."
       },
       {
-        "time": "17h45",
-        "title": "Conferência e premiação",
-        "desc": "Troféu do campeão, destaque de criatividade, acolhimento e espírito esportivo. O campeão é anunciado no sábado à tarde."
+        "time": "17h50",
+        "title": "Premiação do JIDOK",
+        "desc": "Conferência pública e anúncio do campeão no sábado à tarde; entrega de troféu e destaques."
       },
       {
         "time": "Noite",
-        "title": "Celebração e culto de gratidão",
-        "desc": "Sem pontos; momento de unidade após o encerramento competitivo."
+        "title": "Culto de celebração",
+        "desc": "Sem provas e sem pontuação."
       }
     ],
     "sunday": [
@@ -1017,50 +919,51 @@
     ],
     "finals": [
       {
-        "title": "Guerra dos Territórios",
+        "title": "FORTALEZA 27 — Guerra das Três Bases",
+        "steps": "Três grandes bases, cada uma com bandeira e duas coroas de EVA. Em rodadas de 9 minutos, equipes capturam bandeiras rivais, defendem coroas e usam uma carta de proteção com validade de 30 segundos. Em cada rodada entram novos jogadores.",
+        "players": "12 por equipe",
         "duration": "45 min",
-        "players": "8 por time",
-        "materials": "Bandeiras, coletes, cones",
-        "steps": "Rodízio completo de captura de bandeiras; cada capitão escolhe novas estratégias no segundo tempo.",
-        "win": "1º 150 / 2º 110 / 3º 80",
-        "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        "materials": "Bandeiras, coroas EVA, coletes e cones",
+        "win": "Maior soma de bandeiras/coroas válidas.",
+        "safety": "Arbitragem em cada base. Sem empurrões nem bloqueios físicos."
       },
       {
-        "title": "Circuito do Impossível",
+        "title": "QUEIMADA ROYALE — A Virada",
+        "steps": "Três rodadas em campo dividido, com bola de espuma e poderes equilibrados para cada time (ressurreição única e escudo temporário). Torcida decide em que momento o capitão usa o recurso; a organização fiscaliza.",
+        "players": "9 por equipe",
         "duration": "45 min",
-        "players": "10 por time",
-        "materials": "Cones, argolas, EVA e cartas",
-        "steps": "Cinco estações: travessia, precisão, comunicação, quebra-cabeça e torre. Rodízio obrigatório dos participantes.",
-        "win": "1º 150 / 2º 110 / 3º 80",
-        "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        "materials": "Bolas de espuma, coletes, placas de poder",
+        "win": "Mais rodadas vencidas e jogadores ativos.",
+        "safety": "Sem arremessos no rosto, bolas macias e espaço livre."
       },
       {
-        "title": "Caçada das Oito Chaves",
+        "title": "CIRCUITO INSANO — Todos em Ação",
+        "steps": "Um revezamento gigante com quatro setores: atravessar ponte de placas EVA, passar bola grande sem as mãos, acertar alvos de argolas e levar objetos por pista sinuosa. Representantes se alternam a cada setor.",
+        "players": "12 por equipe",
         "duration": "45 min",
-        "players": "Todo o time, subgrupos de 4",
-        "materials": "Oito envelopes, mapa, caixa",
-        "steps": "Percurso em área autorizada com oito enigmas ligados aos ministérios. Cada chave traz uma pista para o desafio final.",
-        "win": "1º 150 / 2º 110 / 3º 80",
-        "safety": "Sem empurrões, contato físico ou exposição de participantes."
+        "materials": "EVA, bola grande leve, argolas, cones",
+        "win": "Menor tempo total após penalidades de segurança.",
+        "safety": "Não usar olhos vendados nem obstáculos altos."
       },
       {
-        "title": "MEGA DESAFIO — O Último Código",
-        "duration": "50 min",
-        "players": "Todo o time, com fases de revezamento",
-        "materials": "Baú cenográfico, 3 mapas, 8 chaves, cartazes",
-        "steps": "Fase 1: decifrar mapa. Fase 2: atravessar estações de habilidade. Fase 3: completar um puzzle gigante. Fase 4: cada time tenta abrir o cofre com a senha final. Última etapa exige que as três equipes unam peças para revelar uma mensagem coletiva.",
-        "win": "1º 350 / 2º 260 / 3º 180; cooperação final rende 100 iguais para todas.",
-        "safety": "Sem deslocamento noturno, portas trancadas ou obstáculos perigosos."
+        "title": "MEGA FINAL — DOMINAÇÃO 27",
+        "steps": "Quatro fases de arena em sequência: (1) conquista de território com bandeiras; (2) corrida de estafetas em equipe; (3) batalha de pontaria com alvos; (4) disputa final das coroas, em que o capitão precisa coordenar a defesa e o ataque. Mudanças de regras são anunciadas pelo apresentador, mas todas as equipes recebem as mesmas condições. Terminada a disputa, as três equipes participam juntas de um momento de celebração, sem pontos extras.",
+        "players": "Todo o time, por grupos em rodízio",
+        "duration": "55 min",
+        "materials": "Bandeiras, coletes, placas de cores, cones, alvos, coroas EVA, cronômetro, som",
+        "win": "Classificação pelo placar das quatro fases; desempate por desafio rápido de pontaria.",
+        "safety": "Limitar corridas às áreas seguras, oferecer funções alternativas e pausa para hidratação."
       }
     ],
-    "coopPoints": 100,
+    "coopPoints": 0,
     "awards": [
-      "Campeão geral",
-      "Equipe mais criativa",
+      "Campeão geral do JIDOK 2027",
+      "Destaque de criatividade",
       "Destaque de espírito esportivo",
-      "Destaque de acolhimento",
-      "Reconhecimento coletivo das oito estruturas"
-    ]
+      "Equipe destaque em acolhimento",
+      "Reconhecimento de todos os participantes"
+    ],
+    "scorePolicy": "A liderança define pontuação de cada jogo e anuncia antecipadamente; não há teto semanal ou da final."
   },
   "budget": [
     {
