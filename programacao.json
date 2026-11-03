@@ -4,7 +4,7 @@
   "name": "JIDOK 2027 — Operação Legado",
   "officialTheme": "A definir pela liderança",
   "tagline": "Uma temporada. Três equipes. Uma história para contar.",
-  "status": "Programação editável; pontuação livre. Tema e datas ainda dependem de confirmação.",
+  "status": "Planejamento administrável, sem limite de pontos, com games e arenas competitivas. Aguardar o tema oficial e as datas confirmadas.",
   "teams": [
     {
       "id": "azul",
@@ -421,7 +421,7 @@
       "cult": "Noite de estreia IMS: exibição dos três vídeos produzidos sobre o tema oficial do JIDOK, com jurados neutros e duração definida.",
       "experience": "Convite em vídeo estilo trailer; pulseira ou crachá de agente para cada participante; QR code opcional com pistas extras.",
       "message": "Comunicando com propósito — referência sugerida: Mateus 5:16.",
-      "saturdayTheme": "Escape: Cidade Secreta",
+      "saturdayTheme": "A Arena dos Agentes",
       "saturdayConcept": "Grande caça a pistas no próprio espaço da igreja, com salas e zonas claramente demarcadas.",
       "fridayGames": [
         {
@@ -496,7 +496,7 @@
       "experience": "A abertura usa uma frequência sonora que se transforma em palavra no telão; cada equipe entrega uma composição inédita de 60–90 segundos.",
       "message": "Louvor, identidade e serviço — referência sugerida: Salmos 150.",
       "saturdayTheme": "JIDOK Gameshow",
-      "saturdayConcept": "Uma tarde com jogos em formato de programa de auditório, com provas de torcida e quebra-cabeças gigantes.",
+      "saturdayConcept": "Uma tarde com jogos em formato de programa de auditório, torcida organizada, bola gigante e desafios físicos em grupo.",
       "fridayGames": [
         {
           "title": "A Banda Inesperada",
@@ -636,7 +636,7 @@
       "friday": "2027-02-26",
       "saturday": "2027-02-27",
       "sunday": "2027-02-28",
-      "chapter": "A Última Chave",
+      "chapter": "A Grande Virada",
       "subtitle": "Tudo aponta para o acampamento",
       "place": "Igreja ou sintético, conforme orçamento",
       "costume": "Uniforme oficial e acessórios da equipe",
