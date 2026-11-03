@@ -11,8 +11,10 @@
   <meta property="og:description" content="Uma temporada. Três equipes. Uma história para contar.">
   <meta property="og:type" content="website">
   <title>JIDOK 2027 | Operação Legado</title>
-  <link rel="stylesheet" href="./styles.css?v=3">
-  <script src="./app.js?v=3" defer></script>
+  <link rel="stylesheet" href="./styles.css?v=4">
+  <script src="./backend-config.js?v=4" defer></script>
+  <script src="./sync.js?v=4" defer></script>
+  <script src="./app.js?v=4" defer></script>
 </head>
 <body>
   <a class="skip" href="#app">Pular para o conteúdo</a>
@@ -25,6 +27,7 @@
       <nav class="desktop-nav" aria-label="Seções do site">
         <button class="nav-btn active" data-nav="inicio" data-go="inicio">Início</button>
         <button class="nav-btn" data-nav="agenda" data-go="agenda">Cronograma</button>
+        <button class="nav-btn" data-nav="equipes" data-go="equipes">Equipes</button>
         <button class="nav-btn" data-nav="cultos" data-go="cultos">Cultos</button>
         <button class="nav-btn" data-nav="sabados" data-go="sabados">Sábados</button>
         <button class="nav-btn" data-nav="jogos" data-go="jogos">Jogos</button>
@@ -33,7 +36,7 @@
         <button class="nav-btn" data-nav="acampamento" data-go="acampamento">Acampamento</button>
         <button class="nav-btn" data-nav="operacao" data-go="operacao">Produção</button>
       </nav>
-      <span class="header-status">PLANEJAMENTO 2027</span>
+      <a class="header-status header-admin-link" href="./painel.html">⚙ Gestão</a>
     </div>
   </header>
   <main id="app" class="shell" tabindex="-1" aria-live="polite">
@@ -42,7 +45,7 @@
   <footer class="footer">
     <div class="shell">
       <span><b>JIDOK 2027 · DOKMOS</b> — Operação Legado</span>
-      <span>Planejamento sujeito a aprovação · Tema oficial a definir · Placar local não compartilhado</span>
+      <span>Tema oficial a definir · Pontuação sem limite · Gestão em painel próprio</span>
     </div>
   </footer>
   <nav class="mobile-nav" aria-label="Navegação para celular">
