@@ -17,7 +17,7 @@ function panelHead(title,subtitle,action=""){return '<div class="admin-section-h
 function field(label,path,val,kind="text",full=false){const id="f-"+path.replace(/[^\w]/g,"-");let input=kind==="textarea"?'<textarea rows="3" id="'+id+'" data-edit="'+e(path)+'">'+e(val)+'</textarea>':'<input id="'+id+'" data-edit="'+e(path)+'" type="'+e(kind)+'" value="'+e(val)+'">';return '<div class="admin-field '+(full?"full":"")+'"><label for="'+id+'">'+e(label)+'</label>'+input+'</div>'}
 function teamSelect(active,all){return (all?'<option value="all">Todas as equipes</option>':'')+D.teams.map(t=>'<option value="'+e(t.id)+'" '+(t.id===active?'selected':'')+'>'+e(t.name)+'</option>').join('')}
 function get(path){return path.split(".").reduce((obj,k)=>obj[k],D)}
-function set(path,val){let parts=path.split("."),target=parts.slice(0,-1).reduce((obj,k)=>obj[k],D);target[parts.at(-1)]=val;mark()}
+function set(path,val){let parts=path.split("."),target=parts.slice(0,-1).reduce((obj,k)=>obj[k],D);target[parts.at(-1)]=val;const sunday=/^weeks\.(\d+)\.sunday$/.exec(path);if(sunday&&Array.isArray(D.sundayDates))D.sundayDates[Number(sunday[1])]=val;mark()}
 function ranking(){return S.totals(L,D.teams)}
 function teamName(id){return D.teams.find(t=>t.id===id)?.name||id}
 function teamColor(id){return D.teams.find(t=>t.id===id)?.color||"#8da2b9"}
