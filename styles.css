@@ -16,3 +16,26 @@ main{min-height:75vh;padding-top:35px;padding-bottom:90px}.page-heading{margin:0
 @media(max-width:760px){body{font-size:15px}.shell{padding:0 15px}.site-header .shell{padding:0 15px}.header-inner{min-height:67px}.brand-mark{width:38px;height:38px;font-size:22px}.brand b{font-size:19px}.brand small{font-size:9px}.desktop-nav{display:none}main{padding-top:22px;padding-bottom:110px}.hero{grid-template-columns:1fr;min-height:auto;padding:30px 25px}.hero h1{font-size:clamp(2.65rem,12vw,3.4rem)}.hero-graphic{min-height:115px;justify-content:flex-end}.hero-graphic .huge{font-size:110px}.hero-graphic .ring{width:150px;height:150px;right:35px}.hero p{font-size:15px}.grid.two,.grid.three,.grid.four{grid-template-columns:1fr}.calc-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.week-banner{display:block}.week-banner h2{font-size:2rem}.week-picker{flex-wrap:nowrap;overflow-x:auto;padding-bottom:7px;scrollbar-width:thin}.week-button{min-width:67px;text-align:center}.card{padding:19px}.section-heading{display:block}.section-heading .btn{margin-top:12px}.section{margin-top:27px}.mobile-nav{position:fixed;bottom:0;left:0;right:0;display:grid;grid-template-columns:repeat(5,1fr);z-index:35;background:#fff;border-top:1px solid var(--line);padding:9px 6px calc(9px + env(safe-area-inset-bottom));box-shadow:0 -8px 25px #112f4a12}.mobile-nav button{display:grid;justify-items:center;gap:2px;border:0;background:transparent;padding:7px 0;color:#728197;font-size:11px;font-weight:850;border-radius:9px}.mobile-nav button span{font-size:21px;line-height:1.1}.mobile-nav button.active{background:#ebf3ff;color:#095bd6}.footer{padding-bottom:100px}.page-heading h1{font-size:2.3rem}}
 @media(max-width:380px){.calc-grid{grid-template-columns:1fr}.hero h1{font-size:2.35rem}.week-banner{padding:22px}.card{padding:16px}}
 @media print{.site-header,.mobile-nav,.btn,.tab-strip,.week-picker{display:none!important}body{background:#fff}.card,.game-card,.mission{break-inside:avoid;box-shadow:none}.shell{max-width:none}.hero,.week-banner,.camp-hero{color:#000;background:#fff;border:1px solid #aaa}.hero p,.week-banner p{color:#444}.hero-graphic{display:none}}
+
+
+/* JIDOK 2027 v4 — Times, ranking e painel público */
+.public-ranking{display:grid;gap:10px;background:#fff;border:1px solid #dbe3ef;border-radius:18px;padding:12px 20px;box-shadow:0 12px 30px rgba(12,29,62,.04)}
+.public-rank-item{display:grid;grid-template-columns:36px 16px minmax(0,1fr) auto;align-items:center;gap:12px;padding:14px 0;border-bottom:1px solid #e7edf5}
+.public-rank-item:last-child{border-bottom:0}
+.public-rank-place{display:grid;place-items:center;height:32px;width:32px;background:#eff4fb;border-radius:10px;color:#45617f;font-weight:950}
+.public-rank-name{font-weight:850;font-size:16px;min-width:0;overflow-wrap:anywhere}
+.public-rank-value{font-size:20px;letter-spacing:-.03em;font-variant-numeric:tabular-nums;white-space:nowrap}
+.public-team-dot{display:inline-block;width:14px;height:14px;border-radius:50%;vertical-align:middle;box-shadow:0 0 0 3px #eef2f8}
+.public-ranking-empty{color:#72849a;font-size:13px;margin:10px 2px 0}
+.public-online-label{color:#138466;font-size:12px;font-weight:800;margin-top:10px}
+.public-local-note{margin-top:11px}
+.public-plus{color:#159166}.public-minus{color:#cc5263}
+.public-team-card{border:1px solid #dce6f1;box-shadow:0 13px 30px #162b4b0b;background:#fff;border-radius:21px;overflow:hidden;display:flex;flex-direction:column;min-height:255px}
+.public-team-top{padding:20px 21px;background:linear-gradient(115deg,var(--team-primary),var(--team-secondary));font-size:12px;letter-spacing:.12em;color:#fff;font-weight:950;min-height:83px;display:flex;align-items:center;justify-content:space-between}
+.public-team-card h2{padding:22px 22px 5px;font-size:26px}
+.public-team-card p{padding:4px 22px 20px;font-size:13px;color:#5b6d86;flex:1}
+.public-team-footer{display:flex;justify-content:space-between;gap:10px;border-top:1px solid #e5eaf3;padding:14px 22px;font-size:12px}
+.public-team-footer span{color:#7c8fa7;font-weight:850}.public-team-footer strong{color:#172b47}
+.header-admin-link{color:#2360ac;text-decoration:none}
+.header-admin-link:hover{background:#dbeaff}
+@media(max-width:760px){.public-ranking{padding:8px 14px}.public-rank-item{grid-template-columns:30px 13px minmax(0,1fr) auto;gap:8px}.public-rank-place{width:27px;height:27px}.public-rank-name{font-size:13px}.public-rank-value{font-size:14px}.public-team-card{min-height:220px}.header-admin-link{display:none}}
