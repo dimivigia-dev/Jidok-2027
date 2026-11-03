@@ -1,0 +1,33 @@
+/* JIDOK 2027 • sincronização. GitHub Pages + Supabase opcional.
+ * No modo demonstração os dados ficam somente no navegador; não confundir com site compartilhado.
+ * Nunca inserir chave secret/service_role neste arquivo nem em backend-config.js.
+ */
+(function () {
+  "use strict";
+  const CONFIG_KEY="jidok27-program-v4", SCORE_KEY="jidok27-score-ledger-v4", TOKEN_KEY="jidok27-session-v4";
+  const raw=window.JIDOK_BACKEND||{};
+  const url=String(raw.supabaseUrl||"").trim().replace(/\/+$/,"");
+  const key=String(raw.anonKey||"").trim();
+  const cloud=/^https:\/\/[a-z0-9.-]+\.supabase\.co$/i.test(url)&&key.length>30;
+  const state={mode:cloud?"cloud":"local",url,configured:cloud};
+  function copy(value){return JSON.parse(JSON.stringify(value))}
+  function readLocal(k,fallback){try{const v=localStorage.getItem(k);return v?JSON.parse(v):fallback}catch(_){return fallback}}
+  function writeLocal(k,value){localStorage.setItem(k,JSON.stringify(value))}
+  function numeric(p){if(!/^[+-]?\d+$/.test(String(p||"").trim()))throw Error("Informe pontos inteiros (ex.: 250 ou -50).");const n=Number(p);if(!Number.isSafeInteger(n)||n===0)throw Error("Use um número inteiro diferente de zero, com precisão segura.");return n}
+  function session(){try{return JSON.parse(sessionStorage.getItem(TOKEN_KEY)||"null")}catch(_){return null}}
+  function validToken(){const s=session();return s&&s.access_token?s.access_token:null}
+  function headers(token){return {"apikey":key,"Authorization":"Bearer "+(token||key),"Content-Type":"application/json"}}
+  async function rest(path,opts,token){const response=await fetch(url+"/rest/v1/"+path,Object.assign({headers:headers(token),cache:"no-store"},opts||{}));if(!response.ok){const msg=await response.text();throw Error("Banco de dados: "+response.status+" "+msg.slice(0,180))}if(response.status===204)return null;const body=await response.text();return body?JSON.parse(body):null}
+  async function rawData(){const r=await fetch("./programacao.json",{cache:"no-store"});if(!r.ok)throw Error("Não foi possível carregar a programação inicial.");return r.json()}
+  async function load(){let data=await rawData(),entries=[];if(cloud){const [settings,scores]=await Promise.all([rest("jidok_site_config?select=site_data&id=eq.1"),rest("jidok_score_entries?select=*&order=created_at.desc&limit=5000")]);if(settings?.length&&settings[0].site_data)data=settings[0].site_data;entries=scores||[];}else{data=readLocal(CONFIG_KEY,data);entries=readLocal(SCORE_KEY,[])}return {data:copy(data),entries:copy(entries),mode:state.mode}}
+  async function loadScores(){return cloud?(await rest("jidok_score_entries?select=*&order=created_at.desc&limit=5000"))||[]:readLocal(SCORE_KEY,[])}
+  async function login(email,password){if(!cloud)throw Error("Conecte o Supabase antes de habilitar o login.");const response=await fetch(url+"/auth/v1/token?grant_type=password",{method:"POST",headers:{"apikey":key,"Content-Type":"application/json"},body:JSON.stringify({email,password})});if(!response.ok)throw Error("Email ou senha inválidos.");const auth=await response.json();if(!auth.access_token||!auth.user?.id)throw Error("Login incompleto.");const check=await rest("jidok_roles?select=user_id,is_admin&user_id=eq."+encodeURIComponent(auth.user.id),{},auth.access_token);if(!check?.[0]?.is_admin)throw Error("Usuário sem permissão de administrador.");sessionStorage.setItem(TOKEN_KEY,JSON.stringify({access_token:auth.access_token,user_id:auth.user.id,email:auth.user.email,expires_at:Date.now()+((auth.expires_in||3600)*1000)}));return session()}
+  async function verify(){if(!cloud)return true;const s=session();if(!s?.access_token||s.expires_at<Date.now()+2000)return false;try{const rows=await rest("jidok_roles?select=user_id,is_admin&user_id=eq."+encodeURIComponent(s.user_id),{},s.access_token);return rows?.[0]?.is_admin===true}catch(_){return false}}
+  function logout(){try{sessionStorage.removeItem(TOKEN_KEY)}catch(_){}}
+  async function saveConfig(data){if(!data||!Array.isArray(data.teams)||data.teams.length!==3||!Array.isArray(data.weeks)||data.weeks.length!==8)throw Error("Configuração inválida: são necessárias três equipes e oito semanas.");const next=copy(data);next.updated_at=new Date().toISOString();if(cloud){if(!await verify())throw Error("Sua sessão expirou ou não tem acesso administrativo.");await rest("jidok_site_config?id=eq.1",{method:"PATCH",headers:Object.assign(headers(validToken()),{"Prefer":"return=minimal"}),body:JSON.stringify({site_data:next,updated_by:session().user_id})},validToken());}else{writeLocal(CONFIG_KEY,next)}return next}
+  async function addScore(entry){const points=numeric(entry.points);const team=String(entry.team_id||"").trim(),reason=String(entry.reason||"").trim();if(!team||reason.length<3)throw Error("Selecione uma equipe e descreva o motivo (mínimo 3 caracteres).");const clean={team_id:team,points,category:String(entry.category||"Geral").slice(0,120),reason:reason.slice(0,1000),event_date:entry.event_date||new Date().toISOString().slice(0,10)};if(cloud){if(!await verify())throw Error("Sua sessão expirou ou não tem acesso administrativo.");const result=await rest("jidok_score_entries",{method:"POST",headers:Object.assign(headers(validToken()),{"Prefer":"return=representation"}),body:JSON.stringify(clean)},validToken());return result?.[0]||clean;}const row=Object.assign({id:(crypto.randomUUID?crypto.randomUUID():String(Date.now())+"-"+Math.random()),created_at:new Date().toISOString(),created_by:"admin-local"},clean);const list=readLocal(SCORE_KEY,[]);list.unshift(row);writeLocal(SCORE_KEY,list);return row}
+  function totals(entries,teams){return teams.map(t=>({team:t,points:(entries||[]).filter(e=>e.team_id===t.id).reduce((a,e)=>a+Number(e.points||0),0)})).sort((a,b)=>b.points-a.points)}
+  function exportJSON(data,entries){return JSON.stringify({format:"JIDOK-2027-v4",exported_at:new Date().toISOString(),data,entries},null,2)}
+  function localRestore(obj){if(cloud)throw Error("No modo online a restauração deve passar por um administrador e auditoria; não faça sobrescrita pelo navegador.");if(obj?.format!=="JIDOK-2027-v4"||!Array.isArray(obj.data?.teams)||!Array.isArray(obj.entries))throw Error("Backup inválido.");writeLocal(CONFIG_KEY,obj.data);writeLocal(SCORE_KEY,obj.entries)}
+  window.JIDOK_SYNC={state,load,rawData,loadScores,saveConfig,addScore,totals,exportJSON,localRestore,login,verify,logout,session,numeric};
+})();
