@@ -2,58 +2,69 @@
 <html lang="pt-BR">
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-  <meta name="theme-color" content="#101b35">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="default">
-  <meta name="description" content="Central oficial de planejamento JIDOK 2027 — cultos, jogos, desafios dos ministérios, domingos, pontuação e final de acampamento.">
-  <meta property="og:title" content="JIDOK 2027 — Operação Legado">
-  <meta property="og:description" content="Uma temporada. Três equipes. Uma história para contar.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#121d34">
+  <meta name="description" content="JIDOK Studio — painel de gestão para equipes, pontos, ideias e cronogramas.">
+  <meta property="og:title" content="JIDOK Studio — Central de Organização">
+  <meta property="og:description" content="Gerencie suas equipes, pontuação, ideias e cronogramas com facilidade.">
   <meta property="og:type" content="website">
-  <title>JIDOK 2027 | Operação Legado</title>
-  <link rel="stylesheet" href="./styles.css?v=4">
-  <script src="./backend-config.js?v=4" defer></script>
-  <script src="./sync.js?v=4" defer></script>
-  <script src="./app.js?v=4" defer></script>
+  <title>JIDOK Studio | Central de Organização</title>
+  <link rel="stylesheet" href="./studio.css?v=1">
+  <script src="./studio.js?v=1" defer></script>
 </head>
 <body>
-  <a class="skip" href="#app">Pular para o conteúdo</a>
-  <header class="site-header">
-    <div class="shell header-inner">
-      <a class="brand" href="#inicio" aria-label="JIDOK 2027, voltar ao início">
+  <a class="skip" href="#content">Pular para o conteúdo</a>
+  <div class="app-shell">
+    <aside class="sidebar" aria-label="Navegação do JIDOK Studio">
+      <a class="brand" href="#inicio">
         <div class="brand-mark" aria-hidden="true">J</div>
-        <div><b>JIDOK <span style="color:#0b69ec">27</span></b><small>Operação Legado</small></div>
+        <div><strong>JIDOK <span style="color:#91a4ff">Studio</span></strong><small>Central de organização</small></div>
       </a>
-      <nav class="desktop-nav" aria-label="Seções do site">
-        <button class="nav-btn active" data-nav="inicio" data-go="inicio">Início</button>
-        <button class="nav-btn" data-nav="agenda" data-go="agenda">Cronograma</button>
-        <button class="nav-btn" data-nav="equipes" data-go="equipes">Equipes</button>
-        <button class="nav-btn" data-nav="cultos" data-go="cultos">Cultos</button>
-        <button class="nav-btn" data-nav="sabados" data-go="sabados">Sábados</button>
-        <button class="nav-btn" data-nav="jogos" data-go="jogos">Jogos</button>
-        <button class="nav-btn" data-nav="ministerios" data-go="ministerios">Ministérios</button>
-        <button class="nav-btn" data-nav="placar" data-go="placar">Pontuação</button>
-        <button class="nav-btn" data-nav="acampamento" data-go="acampamento">Acampamento</button>
-        <button class="nav-btn" data-nav="operacao" data-go="operacao">Produção</button>
+      <span class="nav-caption">PAINEL PRINCIPAL</span>
+      <nav class="side-nav" aria-label="Seções do painel">
+        <button data-nav="inicio" class="active"><span class="nav-icon">◫</span> Visão geral</button>
+        <button data-nav="placar"><span class="nav-icon">▥</span> Pontuação</button>
+        <button data-nav="equipes"><span class="nav-icon">◉</span> Equipes</button>
+        <button data-nav="ideias"><span class="nav-icon">✧</span> Quadro de ideias</button>
+        <button data-nav="agenda"><span class="nav-icon">▦</span> Cronogramas</button>
       </nav>
-      <a class="header-status header-admin-link" href="./painel.html">⚙ Gestão</a>
+      <span class="nav-caption">SISTEMA</span>
+      <nav class="side-nav">
+        <button data-nav="config"><span class="nav-icon">⚙</span> Configurações</button>
+      </nav>
+      <div class="sidebar-bottom">
+        <div class="online">Seu espaço de organização</div>
+        <p>Pontos, times, ideias e agenda em um painel simples. Os registros ficam salvos neste aparelho.</p>
+      </div>
+    </aside>
+    <div class="page-wrap">
+      <header class="topbar">
+        <div class="topbar-left">
+          <div class="topbar-symbol" aria-hidden="true">J</div>
+          <div class="crumb"><span id="brandName">JIDOK 2027</span> <span style="margin:0 8px;color:#c4ceda">/</span> <strong id="currentPage">Visão geral</strong></div>
+        </div>
+        <div class="topbar-actions">
+          <span class="status-pill">Salvo neste dispositivo</span>
+          <button class="topbar-link" data-nav="config">◈ Backup e ajustes</button>
+        </div>
+      </header>
+      <main id="content" class="content" tabindex="-1">
+        <div class="card"><h1>JIDOK Studio</h1><p>Carregando seu painel...</p></div>
+      </main>
+      <footer class="footer">JIDOK Studio · Central de organização · Dados locais neste navegador</footer>
     </div>
-  </header>
-  <main id="app" class="shell" tabindex="-1" aria-live="polite">
-    <section class="card"><h1>JIDOK 2027</h1><p>Carregando programação...</p></section>
-  </main>
-  <footer class="footer">
-    <div class="shell">
-      <span><b>JIDOK 2027 · DOKMOS</b> — Operação Legado</span>
-      <span>Tema oficial a definir · Pontuação sem limite · Gestão em painel próprio</span>
-    </div>
-  </footer>
-  <nav class="mobile-nav" aria-label="Navegação para celular">
-    <button data-nav="inicio" data-go="inicio"><span>⌂</span>Início</button>
-    <button data-nav="agenda" data-go="agenda"><span>▦</span>Agenda</button>
-    <button data-nav="jogos" data-go="jogos"><span>★</span>Jogos</button>
-    <button data-nav="placar" data-go="placar"><span>▥</span>Pontos</button>
-    <button data-nav="mais" data-go="mais"><span>☰</span>Mais</button>
+  </div>
+  <nav class="mobile-bottom" aria-label="Navegação do celular">
+    <button data-nav="inicio" class="active"><span class="nav-icon">⌂</span>Início</button>
+    <button data-nav="placar"><span class="nav-icon">▥</span>Pontos</button>
+    <button data-nav="equipes"><span class="nav-icon">◉</span>Times</button>
+    <button data-nav="ideias"><span class="nav-icon">✧</span>Ideias</button>
+    <button data-nav="mais"><span class="nav-icon">☰</span>Mais</button>
   </nav>
+  <dialog id="editDialog" class="dialog" aria-label="Editar informações">
+    <div id="dialogContent"></div>
+  </dialog>
+  <div id="toast" class="toast" hidden role="status" aria-live="polite"></div>
+  <div id="presenter" class="telon" hidden role="dialog" aria-modal="true" aria-label="Placar para telão"></div>
 </body>
 </html>
