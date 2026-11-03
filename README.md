@@ -4,11 +4,11 @@ Site do campeonato interno do ministério de adolescentes Dokmos.
 
 ## Acessar o site
 
-Depois de ativar o **GitHub Pages**, o endereço previsto é:
+O site é publicado automaticamente pelo **GitHub Pages** no endereço:
 
 https://dimivigia-dev.github.io/Jidok-2027/
 
-> O link público só funcionará após a ativação do Pages no repositório.
+> Publicações novas são implantadas automaticamente a partir da branch `main`.
 
 ## Ativar o GitHub Pages
 
@@ -21,7 +21,7 @@ https://dimivigia-dev.github.io/Jidok-2027/
 ## O que o site contém
 
 - Agenda das sextas e dos sábados, de janeiro ao acampamento de março.
-- 40 provas com regras, materiais, participantes e cuidados de segurança.
+- **56 provas:** 24 desafios das sextas (3 por noite) e 32 provas dos sábados (4 por tarde), com regras, materiais, participantes e cuidados de segurança.
 - Missões de SOS, GAD, New Breed, Flare Up, Vivacidade, IMS, GOE e Intercessão.
 - Placar e simulador de pontos.
 - Programação do acampamento, orçamento e checklist de preparação.
@@ -43,3 +43,12 @@ Para um placar oficial compartilhado, será necessário adicionar backend, auten
 ## Tecnologia
 
 A publicação é feita a partir de `index.html`, com CSS, JavaScript e dados integrados no próprio arquivo. Por isso, o GitHub Pages pode servir o site sem servidor PHP, Node.js ou banco de dados.
+
+## Noites de missões — sextas-feiras
+
+- **19h00:** discipulado, sem pontuação.
+- **20h00:** início do culto. O encerramento às 21h55 é somente uma sugestão, a confirmar pela liderança.
+- **Três desafios temáticos completos a cada sexta:** sem categorias artificiais de relâmpago ou palco. Cada prova possui roteiro, participação, duração, materiais, critérios de vitória e segurança; são desafios de equipes, enigmas, movimento, música, criatividade e colaboração.
+- **Pontuação de sexta:** 1º 40, 2º 30 e 3º 20 pontos em cada prova, máximo de 120 pontos nas sextas. O máximo semanal permanece **855 pontos**.
+- **Placar detalhado:** lançamentos e tabela separada por desafio. A versão estática não compartilha resultados entre celulares.
+- **Compatibilidade:** o placar preserva pontuações únicas de sexta de versões antigas, sinalizando que não têm detalhamento por prova. Ao inserir as novas notas, o antigo total é substituído.
